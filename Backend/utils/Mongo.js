@@ -1,5 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://localhost:27017';
+//const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://admin:boilermaker5@cluster0-rc19c.mongodb.net/test?retryWrites=true';
 const DBName = "TakeMeOut";
 
 export default class Mongo {
