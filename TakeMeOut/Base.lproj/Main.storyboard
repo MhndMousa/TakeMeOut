@@ -17,25 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EfS-on-rx8" customClass="GIDSignInButton">
-                                <rect key="frame" x="67.5" y="592" width="240" height="45"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsB-VY-oxm">
+                                <rect key="frame" x="87.5" y="592" width="200" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="0DJ-lp-Yom"/>
-                                    <constraint firstAttribute="height" constant="45" id="FGu-ja-Wg4"/>
+                                    <constraint firstAttribute="width" constant="200" id="FXn-sT-fbK"/>
+                                    <constraint firstAttribute="height" constant="45" id="p8U-w7-Jvm"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Log in Using Google" backgroundImage="bg.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
-                                    <action selector="signinButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jOy-ZC-eTA"/>
+                                    <action selector="signinButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CKQ-3G-1Ry"/>
                                 </connections>
-                            </view>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="EfS-on-rx8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ouf-7E-hvr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EfS-on-rx8" secondAttribute="bottom" constant="30" id="QX8-7E-12g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jsB-VY-oxm" secondAttribute="bottom" constant="30" id="hGt-Jn-8ih"/>
+                            <constraint firstItem="jsB-VY-oxm" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mbz-X9-5kW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="jsB-VY-oxm" id="XF9-Bc-Ele"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,4 +98,7 @@
             <point key="canvasLocation" x="1159" y="911"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg.png" width="102" height="102"/>
+    </resources>
 </document>

@@ -13,20 +13,20 @@ import GoogleSignIn
 
 class ViewController: UIViewController, GIDSignInUIDelegate {
     
-    struct Dog: Codable {
+    struct userAccount: Codable {
         var email: String
-        //        var name: String
-        //        var owner: String
+        
     }
-    struct post: Codable {
-        var userId: Int
-        var Id: Int
-        var title: String
-        var body: String
-    }
+//    struct post: Codable {
+//        var : Int
+//        var Id: Int
+//        var title: String
+//        var body: String
+//    }
     
     
     
+    @IBOutlet weak var loginButton: UIButton!
     @IBAction func pushDataButtonClicked(_ sender: Any) {
         
         let url = URL(string: "http://127.0.0.1:6968/user/register")!
@@ -36,18 +36,17 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
         
-        let dog = Dog(email: "testmedad")
-        //        let dog = Dog(email: "asdjfnkajsdnf", name: "dog", owner: "not dog")
-        //        let dog = post(userId: 100, Id: 10100, title: "tiitlelelel", body: "afhjksdabnvhasbndiniusdnisbdiufidbb")
+        let user = userAccount(email: "testmedad")
+        
         
         let jsonEncoder = JSONEncoder()
-        let jsonData = try! jsonEncoder.encode(dog)
+        let jsonData = try! jsonEncoder.encode(user)
         print(jsonData)
-        //        let json = String(data: "{\"email\": \"testmore\" }", encoding: .utf8)
-        //        print(json!)
-        let postString = "{\"email\": \"testmore\" }"
+        let json = String(data: jsonData, encoding: .utf8)
+        print(json!)
+//        let postString = "{\"email\": \"testmore\" }"
         
-        request.httpBody = postString.data(using: .utf8)
+        request.httpBody = json?.data(using: .utf8)
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {                                                 // check for fundamental networking error
                 print("error=\(error)")
@@ -68,10 +67,14 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     
     @IBAction func signinButtonClicked(_ sender: Any) {
         GIDSignIn.sharedInstance()?.signIn()
-        sleep(10)
+        if(GIDSignIn.sharedInstance()?.currentUser != nil){
+            self.goToMain()
+        }
+        
+    }
+    func goToMain() {
         let secondVC = self.storyboard!.instantiateViewController(withIdentifier: "main")
         self.present(secondVC, animated: true, completion: nil)
-        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,8 +83,13 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
         GIDSignIn.sharedInstance().uiDelegate = self
         drawCircle()
         addLabels()
+        configureLoginButton()
     }
     
+    func configureLoginButton(){
+        loginButton.layer.cornerRadius = 30
+        loginButton.setGradientBackground(colorOne: Colors.teal, colorTwo: Colors.limeGreen)
+    }
     
     
     func addLabels() {
