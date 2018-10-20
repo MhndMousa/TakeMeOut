@@ -7,11 +7,58 @@
 //
 
 import UIKit
+import Foundation
 import GoogleSignIn
 
 
 class ViewController: UIViewController, GIDSignInUIDelegate {
 
+    struct Dog: Codable {
+        var email: String
+        var name: String
+        var owner: String
+    }
+
+
+    
+    @IBAction func pushDataButtonClicked(_ sender: Any) {
+        
+        let url = URL(string: "http://localhost:6968/user/register")!
+        
+        var request = URLRequest(url: url)
+        
+//        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        request.httpMethod = "POST"
+        
+       
+        let dog = Dog(email: "asdjfnkajsdnf", name: "dog", owner: "not dog")
+        
+        
+        let jsonEncoder = JSONEncoder()
+        let jsonData = try! jsonEncoder.encode(dog)
+        let json = String(data: jsonData, encoding: String.Encoding.utf16)
+        let postString = json
+        
+        
+        request.httpBody = postString!.data(using: .utf8)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {                                                 // check for fundamental networking error
+                print("error=\(error)")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(response)")
+            }
+            
+            let responseString = String(data: data, encoding: .utf8)
+            print("responseString = \(responseString)")
+        }
+        task.resume()
+
+    }
+    
     @IBAction func signinButtonClicked(_ sender: Any) {
         GIDSignIn.sharedInstance()?.signIn()
     }
