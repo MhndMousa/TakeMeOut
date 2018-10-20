@@ -30,7 +30,7 @@ export default class Mongo {
 
                 db.close();
 
-                if (result.length === 1)
+                if (result.length == 1)
                     result = result[0];
 
                 callback(result);
@@ -112,7 +112,7 @@ export default class Mongo {
             if (err)
                 throw err;
 
-            dbo.collection(collection).deleteMany(query, function(err, obj) {
+            dbo.collection(collection).deleteOne(query, function(err, obj) {
                 if (err)
                     throw err;
 
@@ -239,4 +239,32 @@ export default class Mongo {
       });
     }
 
+
+
+
+
+
+    static updatematches (collection, query, values, callback) {
+        MongoClient.connect(url, function(error, db){
+            const dbo = db.db(DBName);
+
+            //check for connection error
+            if(error){
+                console.error(error);
+                process.exit(1);
+            }
+
+            //put methods to modify database here
+            dbo.Matches.update(query, {$push:{"EFAWFE":12}}, function(err, res) {
+                if (err)
+                    throw err;
+
+                //close database
+                db.close();
+
+                if (callback)
+                    callback(res);
+            });
+        });
+    }
 }
