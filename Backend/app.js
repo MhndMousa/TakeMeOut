@@ -13,11 +13,14 @@ var config = require('config');
 
 var indexRouter = require('./routes/index'); //THIS
 var registerRouter = require('./routes/user/register'); //THIS
+var loginRouter = require('./routes/user/login');
+var matchesRouter = require('./routes/user/matches');
+var updateRouter = require('./routes/user/update');
 
 
 
 var app = express(); 
-app.set('port', 6968);
+app.set('port', 6971);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -33,6 +36,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter); //THIS
 app.use('/user/register', registerRouter);
+app.use('/user/login', loginRouter);
+app.use('/user/matches', matchesRouter);
+app.use('/user/update', updateRouter);
 
 
 app.disable('etag');

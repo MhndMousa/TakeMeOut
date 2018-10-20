@@ -4,7 +4,7 @@ var MongoClient = require('mongodb').MongoClient,
 MongoClient.connect(url, function(error, db){
     //check for connection error
     if(error){
-        console.(error);
+        // console.(error);
         process.exierrort(1);
     }
     //prints upon successful connectino
