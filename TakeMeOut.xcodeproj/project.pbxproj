@@ -14,6 +14,10 @@
 		590AB291217AF9E600C259D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590AB28F217AF9E600C259D8 /* LaunchScreen.storyboard */; };
 		590AB29C217AF9E600C259D8 /* TakeMeOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB29B217AF9E600C259D8 /* TakeMeOutTests.swift */; };
 		590AB2A7217AF9E600C259D8 /* TakeMeOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB2A6217AF9E600C259D8 /* TakeMeOutUITests.swift */; };
+		590AB2B5217AFA6100C259D8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 590AB2B4217AFA6000C259D8 /* GoogleService-Info.plist */; };
+		80E7EFE8993AB475B3314E35 /* Pods_TakeMeOutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11DFE7C9D4538947F39FC48 /* Pods_TakeMeOutUITests.framework */; };
+		C6A1CD6E2582530A2D77061E /* Pods_TakeMeOutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FACA0DA6909F74EF392D7C /* Pods_TakeMeOutTests.framework */; };
+		E3C7F45D435FFF15E5E57DFF /* Pods_TakeMeOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45E9C6A07D91D8B31C7F5CD /* Pods_TakeMeOut.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02DE37C4844EF6F5E9E5A9CE /* Pods-TakeMeOutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOutTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOutTests/Pods-TakeMeOutTests.release.xcconfig"; sourceTree = "<group>"; };
+		37FACA0DA6909F74EF392D7C /* Pods_TakeMeOutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeMeOutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		590AB283217AF9E200C259D8 /* TakeMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		590AB286217AF9E200C259D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		590AB288217AF9E200C259D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		590AB2A2217AF9E600C259D8 /* TakeMeOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeMeOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		590AB2A6217AF9E600C259D8 /* TakeMeOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeMeOutUITests.swift; sourceTree = "<group>"; };
 		590AB2A8217AF9E600C259D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590AB2B4217AFA6000C259D8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		886A1857DAB3E2442A965114 /* Pods-TakeMeOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOut.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut.release.xcconfig"; sourceTree = "<group>"; };
+		8EF24A9E17E4C76BA00BFF8A /* Pods-TakeMeOutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOutUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOutUITests/Pods-TakeMeOutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD1B8D454DEE8AF23CA5E24 /* Pods-TakeMeOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut.debug.xcconfig"; sourceTree = "<group>"; };
+		DED0A7C65616799D21F399DD /* Pods-TakeMeOutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOutTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOutTests/Pods-TakeMeOutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E048C84134FD98AFD8F23DFE /* Pods-TakeMeOutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOutUITests/Pods-TakeMeOutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F11DFE7C9D4538947F39FC48 /* Pods_TakeMeOutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeMeOutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45E9C6A07D91D8B31C7F5CD /* Pods_TakeMeOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakeMeOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3C7F45D435FFF15E5E57DFF /* Pods_TakeMeOut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A1CD6E2582530A2D77061E /* Pods_TakeMeOutTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E7EFE8993AB475B3314E35 /* Pods_TakeMeOutUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				590AB29A217AF9E600C259D8 /* TakeMeOutTests */,
 				590AB2A5217AF9E600C259D8 /* TakeMeOutUITests */,
 				590AB284217AF9E200C259D8 /* Products */,
+				8A103A4A8BB4CB245017D260 /* Pods */,
+				FDA40BE776DD16161B697A7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				590AB28D217AF9E600C259D8 /* Assets.xcassets */,
 				590AB28F217AF9E600C259D8 /* LaunchScreen.storyboard */,
 				590AB292217AF9E600C259D8 /* Info.plist */,
+				590AB2B4217AFA6000C259D8 /* GoogleService-Info.plist */,
 			);
 			path = TakeMeOut;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = TakeMeOutUITests;
 			sourceTree = "<group>";
 		};
+		8A103A4A8BB4CB245017D260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FD1B8D454DEE8AF23CA5E24 /* Pods-TakeMeOut.debug.xcconfig */,
+				886A1857DAB3E2442A965114 /* Pods-TakeMeOut.release.xcconfig */,
+				DED0A7C65616799D21F399DD /* Pods-TakeMeOutTests.debug.xcconfig */,
+				02DE37C4844EF6F5E9E5A9CE /* Pods-TakeMeOutTests.release.xcconfig */,
+				E048C84134FD98AFD8F23DFE /* Pods-TakeMeOutUITests.debug.xcconfig */,
+				8EF24A9E17E4C76BA00BFF8A /* Pods-TakeMeOutUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDA40BE776DD16161B697A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F45E9C6A07D91D8B31C7F5CD /* Pods_TakeMeOut.framework */,
+				37FACA0DA6909F74EF392D7C /* Pods_TakeMeOutTests.framework */,
+				F11DFE7C9D4538947F39FC48 /* Pods_TakeMeOutUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 590AB2AB217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOut" */;
 			buildPhases = (
+				8ACD9CAE1475A3F497DDD33C /* [CP] Check Pods Manifest.lock */,
 				590AB27F217AF9E200C259D8 /* Sources */,
 				590AB280217AF9E200C259D8 /* Frameworks */,
 				590AB281217AF9E200C259D8 /* Resources */,
+				8154AC6579356D3F5258AB18 /* [CP] Embed Pods Frameworks */,
+				54A5DB69E4E7549B6724A86E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 590AB2AE217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOutTests" */;
 			buildPhases = (
+				F3DBF498F6D061FF88A76103 /* [CP] Check Pods Manifest.lock */,
 				590AB293217AF9E600C259D8 /* Sources */,
 				590AB294217AF9E600C259D8 /* Frameworks */,
 				590AB295217AF9E600C259D8 /* Resources */,
@@ -167,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 590AB2B1217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOutUITests" */;
 			buildPhases = (
+				27D20627FCBA049EE5979958 /* [CP] Check Pods Manifest.lock */,
 				590AB29E217AF9E600C259D8 /* Sources */,
 				590AB29F217AF9E600C259D8 /* Frameworks */,
 				590AB2A0217AF9E600C259D8 /* Resources */,
@@ -230,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				590AB291217AF9E600C259D8 /* LaunchScreen.storyboard in Resources */,
+				590AB2B5217AFA6100C259D8 /* GoogleService-Info.plist in Resources */,
 				590AB28E217AF9E600C259D8 /* Assets.xcassets in Resources */,
 				590AB28C217AF9E200C259D8 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +299,103 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27D20627FCBA049EE5979958 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakeMeOutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A5DB69E4E7549B6724A86E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8154AC6579356D3F5258AB18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ACD9CAE1475A3F497DDD33C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakeMeOut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3DBF498F6D061FF88A76103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakeMeOutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		590AB27F217AF9E200C259D8 /* Sources */ = {
@@ -430,15 +576,13 @@
 		};
 		590AB2AC217AF9E600C259D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD1B8D454DEE8AF23CA5E24 /* Pods-TakeMeOut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXT8YUFTMG;
 				INFOPLIST_FILE = TakeMeOut/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -448,15 +592,13 @@
 		};
 		590AB2AD217AF9E600C259D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 886A1857DAB3E2442A965114 /* Pods-TakeMeOut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXT8YUFTMG;
 				INFOPLIST_FILE = TakeMeOut/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOut;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -466,17 +608,14 @@
 		};
 		590AB2AF217AF9E600C259D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED0A7C65616799D21F399DD /* Pods-TakeMeOutTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXT8YUFTMG;
 				INFOPLIST_FILE = TakeMeOutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -487,17 +626,14 @@
 		};
 		590AB2B0217AF9E600C259D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DE37C4844EF6F5E9E5A9CE /* Pods-TakeMeOutTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXT8YUFTMG;
 				INFOPLIST_FILE = TakeMeOutTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -508,16 +644,13 @@
 		};
 		590AB2B2217AF9E600C259D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E048C84134FD98AFD8F23DFE /* Pods-TakeMeOutUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXT8YUFTMG;
 				INFOPLIST_FILE = TakeMeOutUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -528,16 +661,13 @@
 		};
 		590AB2B3217AF9E600C259D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF24A9E17E4C76BA00BFF8A /* Pods-TakeMeOutUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WXT8YUFTMG;
 				INFOPLIST_FILE = TakeMeOutUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
