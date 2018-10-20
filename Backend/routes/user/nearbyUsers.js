@@ -4,8 +4,8 @@ var router = express.Router();
 import Mongo from '../../utils/Mongo';
 
 /* GET matches */
-router.get('/', function(req, res, next) {
-    const email = req.header("email");
+router.post('/', function(req, res, next) {
+    const email = req.body.email;
 
     Mongo.getNearbyUsers(email, (users) => {
         res.json(users);
