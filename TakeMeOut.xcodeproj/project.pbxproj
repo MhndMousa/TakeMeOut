@@ -18,6 +18,9 @@
 		590AB2B7217B025800C259D8 /* Backend in Resources */ = {isa = PBXBuildFile; fileRef = 590AB2B6217B025700C259D8 /* Backend */; };
 		590AB2B9217B1A8D00C259D8 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB2B8217B1A8D00C259D8 /* Extentions.swift */; };
 		590AB2BB217B221700C259D8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB2BA217B221700C259D8 /* CircleView.swift */; };
+		590AB2BD217B4C0C00C259D8 /* MatchesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB2BC217B4C0C00C259D8 /* MatchesTableViewController.swift */; };
+		590AB2C0217B739A00C259D8 /* MatchedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB2BE217B739A00C259D8 /* MatchedTableCell.swift */; };
+		590AB2C1217B739A00C259D8 /* MatchedTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 590AB2BF217B739A00C259D8 /* MatchedTableCell.xib */; };
 		80E7EFE8993AB475B3314E35 /* Pods_TakeMeOutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11DFE7C9D4538947F39FC48 /* Pods_TakeMeOutUITests.framework */; };
 		C6A1CD6E2582530A2D77061E /* Pods_TakeMeOutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FACA0DA6909F74EF392D7C /* Pods_TakeMeOutTests.framework */; };
 		E3C7F45D435FFF15E5E57DFF /* Pods_TakeMeOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45E9C6A07D91D8B31C7F5CD /* Pods_TakeMeOut.framework */; };
@@ -60,6 +63,9 @@
 		590AB2B6217B025700C259D8 /* Backend */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Backend; sourceTree = "<group>"; };
 		590AB2B8217B1A8D00C259D8 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		590AB2BA217B221700C259D8 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		590AB2BC217B4C0C00C259D8 /* MatchesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTableViewController.swift; sourceTree = "<group>"; };
+		590AB2BE217B739A00C259D8 /* MatchedTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MatchedTableCell.swift; path = Cell/MatchedTableCell.swift; sourceTree = "<group>"; };
+		590AB2BF217B739A00C259D8 /* MatchedTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MatchedTableCell.xib; path = Cell/MatchedTableCell.xib; sourceTree = "<group>"; };
 		886A1857DAB3E2442A965114 /* Pods-TakeMeOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOut.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut.release.xcconfig"; sourceTree = "<group>"; };
 		8EF24A9E17E4C76BA00BFF8A /* Pods-TakeMeOutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOutUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOutUITests/Pods-TakeMeOutUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9FD1B8D454DEE8AF23CA5E24 /* Pods-TakeMeOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeMeOut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +138,9 @@
 				590AB2B4217AFA6000C259D8 /* GoogleService-Info.plist */,
 				590AB2B8217B1A8D00C259D8 /* Extentions.swift */,
 				590AB2BA217B221700C259D8 /* CircleView.swift */,
+				590AB2BC217B4C0C00C259D8 /* MatchesTableViewController.swift */,
+				590AB2BE217B739A00C259D8 /* MatchedTableCell.swift */,
+				590AB2BF217B739A00C259D8 /* MatchedTableCell.xib */,
 			);
 			path = TakeMeOut;
 			sourceTree = "<group>";
@@ -289,6 +298,7 @@
 				590AB2B7217B025800C259D8 /* Backend in Resources */,
 				590AB291217AF9E600C259D8 /* LaunchScreen.storyboard in Resources */,
 				590AB2B5217AFA6100C259D8 /* GoogleService-Info.plist in Resources */,
+				590AB2C1217B739A00C259D8 /* MatchedTableCell.xib in Resources */,
 				590AB28E217AF9E600C259D8 /* Assets.xcassets in Resources */,
 				590AB28C217AF9E200C259D8 /* Main.storyboard in Resources */,
 			);
@@ -416,6 +426,8 @@
 				590AB289217AF9E200C259D8 /* ViewController.swift in Sources */,
 				590AB287217AF9E200C259D8 /* AppDelegate.swift in Sources */,
 				590AB2B9217B1A8D00C259D8 /* Extentions.swift in Sources */,
+				590AB2BD217B4C0C00C259D8 /* MatchesTableViewController.swift in Sources */,
+				590AB2C0217B739A00C259D8 /* MatchedTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
