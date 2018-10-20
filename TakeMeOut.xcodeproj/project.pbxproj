@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590AB287217AF9E200C259D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB286217AF9E200C259D8 /* AppDelegate.swift */; };
+		590AB289217AF9E200C259D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB288217AF9E200C259D8 /* ViewController.swift */; };
+		590AB28C217AF9E200C259D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590AB28A217AF9E200C259D8 /* Main.storyboard */; };
+		590AB28E217AF9E600C259D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590AB28D217AF9E600C259D8 /* Assets.xcassets */; };
+		590AB291217AF9E600C259D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 590AB28F217AF9E600C259D8 /* LaunchScreen.storyboard */; };
+		590AB29C217AF9E600C259D8 /* TakeMeOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB29B217AF9E600C259D8 /* TakeMeOutTests.swift */; };
+		590AB2A7217AF9E600C259D8 /* TakeMeOutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590AB2A6217AF9E600C259D8 /* TakeMeOutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		590AB298217AF9E600C259D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590AB27B217AF9E200C259D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590AB282217AF9E200C259D8;
+			remoteInfo = TakeMeOut;
+		};
+		590AB2A3217AF9E600C259D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590AB27B217AF9E200C259D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590AB282217AF9E200C259D8;
+			remoteInfo = TakeMeOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590AB283217AF9E200C259D8 /* TakeMeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeMeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590AB286217AF9E200C259D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		590AB288217AF9E200C259D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		590AB28B217AF9E200C259D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		590AB28D217AF9E600C259D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		590AB290217AF9E600C259D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		590AB292217AF9E600C259D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590AB297217AF9E600C259D8 /* TakeMeOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeMeOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590AB29B217AF9E600C259D8 /* TakeMeOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeMeOutTests.swift; sourceTree = "<group>"; };
+		590AB29D217AF9E600C259D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590AB2A2217AF9E600C259D8 /* TakeMeOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeMeOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590AB2A6217AF9E600C259D8 /* TakeMeOutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeMeOutUITests.swift; sourceTree = "<group>"; };
+		590AB2A8217AF9E600C259D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		590AB280217AF9E200C259D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590AB294217AF9E600C259D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590AB29F217AF9E600C259D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590AB27A217AF9E200C259D8 = {
+			isa = PBXGroup;
+			children = (
+				590AB285217AF9E200C259D8 /* TakeMeOut */,
+				590AB29A217AF9E600C259D8 /* TakeMeOutTests */,
+				590AB2A5217AF9E600C259D8 /* TakeMeOutUITests */,
+				590AB284217AF9E200C259D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590AB284217AF9E200C259D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590AB283217AF9E200C259D8 /* TakeMeOut.app */,
+				590AB297217AF9E600C259D8 /* TakeMeOutTests.xctest */,
+				590AB2A2217AF9E600C259D8 /* TakeMeOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		590AB285217AF9E200C259D8 /* TakeMeOut */ = {
+			isa = PBXGroup;
+			children = (
+				590AB286217AF9E200C259D8 /* AppDelegate.swift */,
+				590AB288217AF9E200C259D8 /* ViewController.swift */,
+				590AB28A217AF9E200C259D8 /* Main.storyboard */,
+				590AB28D217AF9E600C259D8 /* Assets.xcassets */,
+				590AB28F217AF9E600C259D8 /* LaunchScreen.storyboard */,
+				590AB292217AF9E600C259D8 /* Info.plist */,
+			);
+			path = TakeMeOut;
+			sourceTree = "<group>";
+		};
+		590AB29A217AF9E600C259D8 /* TakeMeOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				590AB29B217AF9E600C259D8 /* TakeMeOutTests.swift */,
+				590AB29D217AF9E600C259D8 /* Info.plist */,
+			);
+			path = TakeMeOutTests;
+			sourceTree = "<group>";
+		};
+		590AB2A5217AF9E600C259D8 /* TakeMeOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				590AB2A6217AF9E600C259D8 /* TakeMeOutUITests.swift */,
+				590AB2A8217AF9E600C259D8 /* Info.plist */,
+			);
+			path = TakeMeOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590AB282217AF9E200C259D8 /* TakeMeOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590AB2AB217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOut" */;
+			buildPhases = (
+				590AB27F217AF9E200C259D8 /* Sources */,
+				590AB280217AF9E200C259D8 /* Frameworks */,
+				590AB281217AF9E200C259D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeMeOut;
+			productName = TakeMeOut;
+			productReference = 590AB283217AF9E200C259D8 /* TakeMeOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		590AB296217AF9E600C259D8 /* TakeMeOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590AB2AE217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOutTests" */;
+			buildPhases = (
+				590AB293217AF9E600C259D8 /* Sources */,
+				590AB294217AF9E600C259D8 /* Frameworks */,
+				590AB295217AF9E600C259D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590AB299217AF9E600C259D8 /* PBXTargetDependency */,
+			);
+			name = TakeMeOutTests;
+			productName = TakeMeOutTests;
+			productReference = 590AB297217AF9E600C259D8 /* TakeMeOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		590AB2A1217AF9E600C259D8 /* TakeMeOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590AB2B1217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOutUITests" */;
+			buildPhases = (
+				590AB29E217AF9E600C259D8 /* Sources */,
+				590AB29F217AF9E600C259D8 /* Frameworks */,
+				590AB2A0217AF9E600C259D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590AB2A4217AF9E600C259D8 /* PBXTargetDependency */,
+			);
+			name = TakeMeOutUITests;
+			productName = TakeMeOutUITests;
+			productReference = 590AB2A2217AF9E600C259D8 /* TakeMeOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590AB27B217AF9E200C259D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Mhnd;
+				TargetAttributes = {
+					590AB282217AF9E200C259D8 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					590AB296217AF9E600C259D8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 590AB282217AF9E200C259D8;
+					};
+					590AB2A1217AF9E600C259D8 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 590AB282217AF9E200C259D8;
+					};
+				};
+			};
+			buildConfigurationList = 590AB27E217AF9E200C259D8 /* Build configuration list for PBXProject "TakeMeOut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 590AB27A217AF9E200C259D8;
+			productRefGroup = 590AB284217AF9E200C259D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590AB282217AF9E200C259D8 /* TakeMeOut */,
+				590AB296217AF9E600C259D8 /* TakeMeOutTests */,
+				590AB2A1217AF9E600C259D8 /* TakeMeOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		590AB281217AF9E200C259D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590AB291217AF9E600C259D8 /* LaunchScreen.storyboard in Resources */,
+				590AB28E217AF9E600C259D8 /* Assets.xcassets in Resources */,
+				590AB28C217AF9E200C259D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590AB295217AF9E600C259D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590AB2A0217AF9E600C259D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590AB27F217AF9E200C259D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590AB289217AF9E200C259D8 /* ViewController.swift in Sources */,
+				590AB287217AF9E200C259D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590AB293217AF9E600C259D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590AB29C217AF9E600C259D8 /* TakeMeOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590AB29E217AF9E600C259D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590AB2A7217AF9E600C259D8 /* TakeMeOutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		590AB299217AF9E600C259D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590AB282217AF9E200C259D8 /* TakeMeOut */;
+			targetProxy = 590AB298217AF9E600C259D8 /* PBXContainerItemProxy */;
+		};
+		590AB2A4217AF9E600C259D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590AB282217AF9E200C259D8 /* TakeMeOut */;
+			targetProxy = 590AB2A3217AF9E600C259D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		590AB28A217AF9E200C259D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590AB28B217AF9E200C259D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		590AB28F217AF9E600C259D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590AB290217AF9E600C259D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		590AB2A9217AF9E600C259D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		590AB2AA217AF9E600C259D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		590AB2AC217AF9E600C259D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = TakeMeOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		590AB2AD217AF9E600C259D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = TakeMeOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		590AB2AF217AF9E600C259D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = TakeMeOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeMeOut.app/TakeMeOut";
+			};
+			name = Debug;
+		};
+		590AB2B0217AF9E600C259D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = TakeMeOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeMeOut.app/TakeMeOut";
+			};
+			name = Release;
+		};
+		590AB2B2217AF9E600C259D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = TakeMeOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakeMeOut;
+			};
+			name = Debug;
+		};
+		590AB2B3217AF9E600C259D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = TakeMeOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mhnd.TakeMeOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TakeMeOut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		590AB27E217AF9E200C259D8 /* Build configuration list for PBXProject "TakeMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590AB2A9217AF9E600C259D8 /* Debug */,
+				590AB2AA217AF9E600C259D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590AB2AB217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590AB2AC217AF9E600C259D8 /* Debug */,
+				590AB2AD217AF9E600C259D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590AB2AE217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590AB2AF217AF9E600C259D8 /* Debug */,
+				590AB2B0217AF9E600C259D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590AB2B1217AF9E600C259D8 /* Build configuration list for PBXNativeTarget "TakeMeOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590AB2B2217AF9E600C259D8 /* Debug */,
+				590AB2B3217AF9E600C259D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 590AB27B217AF9E200C259D8 /* Project object */;
+}
