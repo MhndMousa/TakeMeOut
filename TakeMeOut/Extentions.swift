@@ -29,9 +29,25 @@ extension UIView {
 //    let longitude: Double
 //}
 struct location: Codable{
-    let type: String = "point"
-    let coordinate: [Double]
+    let type: String = "Point"
+    let coordinate: [String]
 }
+
+struct user :Codable{
+    
+    let name:String
+    let email:String
+    let age:String
+    let phone:String
+    let sex:String
+    let cookpref: String
+    let favfood: String
+    //        let location: location
+    let bio: String
+    //        let preferFood: [String]
+    
+}
+
 
 
 struct Colors {

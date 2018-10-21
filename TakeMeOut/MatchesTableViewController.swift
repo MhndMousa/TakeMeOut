@@ -11,20 +11,18 @@ import UIKit
 class MatchesTableViewController: UITableViewController {
 
     @IBOutlet weak var profileView: UIView!
-    struct user :Codable{
-        let email:String
-        let name:String
-        let sex:String
-        let age:Int
-        let favFood: String
-        let cookPref: Int
-        let perferFood:[String]
-        let bio: String
-        let location: location
-        
-    }
-    
+   
     var users = [user]()
+    
+    
+    
+    
+    
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +31,7 @@ class MatchesTableViewController: UITableViewController {
         tableView.rowHeight = UITableView.automaticDimension
         
 
-        fectData()
+        test()
 //        for i in 0..<100{
 //            let user = createUser(name: String(i))
 //            users.append(user)
@@ -43,7 +41,7 @@ class MatchesTableViewController: UITableViewController {
     }
     
     func fectData(){
-        let url = URL(string: "http://10.186.59.115:6968/user/nearbyUsers")!
+        let url = URL(string: "http://127.0.0.1:3000/user/nearbyUsers")!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         
@@ -70,24 +68,24 @@ class MatchesTableViewController: UITableViewController {
     }
     
     func postData(){
-        let url = URL(string: "http://127.0.0.1:6968/user/register")!
+        let url = URL(string: "http://127.0.0.1:6969/user/nearbyUsers")!
         print (url)
         var request = URLRequest(url: url)
         
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
         
-//        let user = userAccount(email: "testmedad")
-        
+//        let u = user(email: "debra1@gmail.com", name: "", sex: "0", age: 0, favFood: "9", cookPref: 0, perferFood: ["AD"], bio: "A", location: location(coordinate: [10,10]))
+        let u = user( name: "", email: "jj@gmail.com", age: "", phone: "", sex: "", cookpref: "", favfood: "", bio: "")
         
         let jsonEncoder = JSONEncoder()
-//        let jsonData = try! jsonEncoder.encode(user)
+        let jsonData = try! jsonEncoder.encode(u)
 //        print(jsonData)
-//        let json = String(data: jsonData, encoding: .utf8)
+        let json = String(data: jsonData, encoding: .utf8)
 //        print(json!)
         //        let postString = "{\"email\": \"testmore\" }"
         
-//        request.httpBody = json?.data(using: .utf8)
+        request.httpBody = json?.data(using: .utf8)
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data, error == nil else {                                                 // check for fundamental networking error
                 print("error=\(error)")
@@ -101,13 +99,81 @@ class MatchesTableViewController: UITableViewController {
             
             let responseString = String(data: data, encoding: .utf8)
             print("responseString = \(responseString)")
+            
+            
+            let jsonDecoder = JSONDecoder()
+            let test = try? jsonDecoder.decode(user.self, from: data)
+            print(try! jsonDecoder.decode(user.self, from: responseString!.data(using: .utf8)!))
+            
+//            let list =  try! jsonDecoder.decode(user.self, from: responseString!.data(using: .utf8)!)
+            
+//            list.forEach({ (user) in
+//            self.users.append(user)
+//        })
+            
+            print("users = \(self.users[0])")
+        }
+        task.resume()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
+    
+    
+    
+    func test() {
+        //Build url request
+        let url = URL(string: "http://127.0.0.1:6969/user/nearbyUsers")!
+        print (url)
+        var request = URLRequest(url: url)
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpMethod = "POST"
+        let u = createUser(name: "Steve")
+        
+        //From object to json
+        let jsonEncoder = JSONEncoder()
+        let jsonData = try! jsonEncoder.encode(u)
+        //        print(jsonData)
+        let json = String(data: jsonData, encoding: .utf8)
+        //        print(json!)
+        request.httpBody = json?.data(using: .utf8)
+        let task = URLSession.shared.dataTask(with: request) { data, response, error in
+            guard let data = data, error == nil else {                                                 // check for fundamental networking error
+                print("error=\(String(describing: error))")
+                return
+            }
+            
+            if let httpStatus = response as? HTTPURLResponse, httpStatus.statusCode != 200 {           // check for http errors
+                print("statusCode should be 200, but is \(httpStatus.statusCode)")
+                print("response = \(String(describing: response))")
+            }
+            let responseString = String(data: data, encoding: .utf8)
+//            print("responseString = \(String(describing: responseString))")
+            
+            let jsonDecoder = JSONDecoder()
+//            print(try! jsonDecoder.decode(user.self, from: (responseString!.data(using: .utf8))!))
+            let list = try! jsonDecoder.decode([user].self, from: (responseString!.data(using: .utf8))!)
+            print(list)
+            list.forEach({ (user) in
+                self.users.append(user)
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
+            })
+
         }
         task.resume()
         
+//
+//        DispatchQueue.main.async {
+//            self.tableView.reloadData()
+//        }
+
+//        tableView.reloadData()÷
     }
 
     func createUser(name:String) -> user{
-        return user(email: "KIL@gmail.com", name: name, sex: "M", age: 22, favFood: "Pizza", cookPref: 0, perferFood: ["Pancakes", "Muffins"], bio: "STeven Was Here", location: location(coordinate: [41.123124,12.421441]))
+        return user(name: "", email: "jj@gmail.com", age: "", phone: "", sex: "", cookpref: "", favfood: "", bio: "")
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -117,11 +183,14 @@ class MatchesTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
+//        print(users.count)
         return users.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell :MatchedTableCell = tableView.dequeueReusableCell(withIdentifier: "matchedCell", for: indexPath) as! MatchedTableCell
+        
+        
         
         cell.name.text = self.users[indexPath.row].name
         if (indexPath.row / 2 == 0){

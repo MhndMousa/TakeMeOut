@@ -8,6 +8,17 @@
 
 import UIKit
 
+//enum emojis : String {
+//    case "Mexican" = "🌯",
+//    case "Japanes" = "🍙",
+//    case "Mexican" = "🌯",
+//    case "Mexican" = "🌯",
+//    case "Mexican" = "🌯",
+//    case "Mexican" = "🌯",
+//    case "Mexican" = "🌯"
+//}
+
+
 class MatchedTableCell: UITableViewCell {
 
     @IBOutlet weak var name: UILabel!
@@ -26,7 +37,7 @@ class MatchedTableCell: UITableViewCell {
         
         
         
-//        let gesture = UITapGestureRecognizer(target: self, action: #selector(buttonClicked))
+//        let gesture = UITapGestureRecognizer(target: self, action: #sç≤elector(buttonClicked))
 //        gesture.numberOfTapsRequired = 1
 //        backgroud.isUserInteractionEnabled = true
 //        backgroud.addGestureRecognizer(gesture)
@@ -34,7 +45,12 @@ class MatchedTableCell: UITableViewCell {
         self.selectionStyle = .none
     }
     
-
+    public func populate(user: user){
+        name.text = user.name
+        comment.text = user.bio
+        emoji.text = user.favfood
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 //        self.prepareForReuse()
