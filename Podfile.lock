@@ -1,4 +1,5 @@
 PODS:
+  - Eureka (4.3.0)
   - GoogleSignIn (4.3.0):
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
@@ -24,11 +25,13 @@ PODS:
   - NVActivityIndicatorView/Presenter (4.4.0)
 
 DEPENDENCIES:
+  - Eureka
   - GoogleSignIn
   - NVActivityIndicatorView
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
+    - Eureka
     - GoogleSignIn
     - GoogleToolboxForMac
     - GTMOAuth2
@@ -36,12 +39,13 @@ SPEC REPOS:
     - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
+  Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
   GoogleSignIn: 11183592dc63e105475c7305a325045ff95e02b7
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
   NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
 
-PODFILE CHECKSUM: 8fd5c504b30592316dd04bf7619ed40a7c6b2ffd
+PODFILE CHECKSUM: 05628f481a36269ac4af06f09c3e9c1df7e49f70
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

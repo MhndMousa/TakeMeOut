@@ -6,6 +6,7 @@ target 'TakeMeOut' do
   use_frameworks!
   pod 'GoogleSignIn'
   pod 'NVActivityIndicatorView'
+  pod 'Eureka'
   # Pods for TakeMeOut
 
   target 'TakeMeOutTests' do
