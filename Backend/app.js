@@ -16,11 +16,13 @@ var registerRouter = require('./routes/user/register'); //THIS
 var loginRouter = require('./routes/user/login');
 var matchesRouter = require('./routes/user/matches');
 var updateRouter = require('./routes/user/update');
+var updateLocationRouter = require('./routes/user/updateLocation');
+var sendUser = require('./routes/user/nearbyUsers');
 
 
 
 var app = express(); 
-app.set('port', 6971);
+app.set('port', 6969);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -39,6 +41,8 @@ app.use('/user/register', registerRouter);
 app.use('/user/login', loginRouter);
 app.use('/user/matches', matchesRouter);
 app.use('/user/update', updateRouter);
+app.use('/user/updateLocation', updateLocationRouter);
+app.use('/user/nearbyUsers', sendUser);
 
 
 app.disable('etag');

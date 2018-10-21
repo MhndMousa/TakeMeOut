@@ -5,9 +5,9 @@ import Mongo from '../../utils/Mongo';
 
 /* POST update info */
 router.post('/', function(req, res, next) {
-    const email = req.header("email");
-
-    Mongo.updateLocation(email, req.body.latitude, req.body.longitude, () => {
+    const email = req.body.email;
+    console.log(email);
+    Mongo.updateLocation(email, req.body.location.coordinates[0], req.body.location.coordinates[1], () => {
         const resp = {
             success: true
         };

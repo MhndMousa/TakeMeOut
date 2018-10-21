@@ -1,5 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://localhost:27017';
+//const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://admin:boilermaker5@cluster0-rc19c.mongodb.net/test?retryWrites=true';
 const DBName = "TakeMeOut";
 
 export default class Mongo {
@@ -153,6 +154,7 @@ export default class Mongo {
                     }
                 }
             };
+            // console.log(value);
 
             //check for connection error
             if(error){
@@ -182,9 +184,10 @@ export default class Mongo {
      */
     static getNearbyUsers (email, callback) {
         const distance = 5000;      // Range of distance to search in meters
-
+        console.log("\n\n\n\n");
+        console.log(email);
         // Get the coordinates of the user
-        this.find("Users", {email: email}, undefined, (user) => {
+        this.find("User", email, undefined, (user) => {
             console.log(user);
             const coordinates = user.location.coordinates;
             const query = {
