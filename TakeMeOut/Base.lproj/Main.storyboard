@@ -47,19 +47,32 @@
             </objects>
             <point key="canvasLocation" x="-346" y="141"/>
         </scene>
-        <!--Item 2-->
+        <!--Settings-->
         <scene sceneID="cea-cH-ebs">
             <objects>
-                <viewController id="wI0-PX-6Yz" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ozV-iv-V38" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="wI0-PX-6Yz" customClass="SettingViewController" customModule="TakeMeOut" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FJV-F7-YBP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96Z-EO-PIp">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Settings" id="jbi-1J-UI6"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="96Z-EO-PIp" firstAttribute="trailing" secondItem="6fF-Qm-z3s" secondAttribute="trailing" id="EcD-KX-cYH"/>
+                            <constraint firstItem="96Z-EO-PIp" firstAttribute="top" secondItem="6fF-Qm-z3s" secondAttribute="top" id="R69-ny-A9Y"/>
+                            <constraint firstItem="96Z-EO-PIp" firstAttribute="leading" secondItem="6fF-Qm-z3s" secondAttribute="leading" id="hrj-Au-Ijb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6fF-Qm-z3s"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="1uX-XF-0bk"/>
+                    <tabBarItem key="tabBarItem" title="Settings" id="1uX-XF-0bk"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ozV-iv-V38" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2241" y="1307"/>
         </scene>

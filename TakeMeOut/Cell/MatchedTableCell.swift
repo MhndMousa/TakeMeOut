@@ -45,10 +45,21 @@ class MatchedTableCell: UITableViewCell {
         self.selectionStyle = .none
     }
     
+    let food = [
+        "Pizza": "🍕",
+        "French Fries": "🍟",
+        "Chicken": "🍗",
+        "Tacos": "🌮",
+        "Pasta": "🍝",
+        "Burger": "🍔",
+        "Icecream": "🍦",
+        "Sushi": "🍣",
+        ]
+    
     public func populate(user: user){
         name.text = user.name
         comment.text = user.bio
-        emoji.text = user.favfood
+        emoji.text = food[user.favfood1]
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {

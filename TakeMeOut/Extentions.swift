@@ -41,7 +41,11 @@ struct user :Codable{
     let phone:String
     let sex:String
     let cookpref: String
-    let favfood: String
+    let favfood1: String
+    let favfood2: String
+    let favfood3: String
+    let favfood4: String
+    let favfood5: String
     //        let location: location
     let bio: String
     //        let preferFood: [String]
