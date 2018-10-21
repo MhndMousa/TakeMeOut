@@ -14,31 +14,31 @@ export default class Mongo {
      */
     static find (collection, query, sort, callback) {
         MongoClient.connect(url, function(err, db) {
-            const dbo = db.db(DBName);
-
-            if (err)
-                throw err;
-
-            let result = dbo.collection(collection).find(query);
-
-            if (sort) {
-                result = result.sort(sort);
-            }
-
-            result.toArray(function(err, result) {
-                if (err)
-                    throw err;
-
-                db.close();
-
-                if (result.length == 1)
-                    result = result[0];
-
-                callback(result);
-            });
-        });
+                            const dbo = db.db(DBName);
+                            
+                            if (err)
+                            throw err;
+                            
+                            let result = dbo.collection(collection).find(query);
+                            
+                            if (sort) {
+                            result = result.sort(sort);
+                            }
+                            
+                            result.toArray(function(err, result) {
+                                           if (err)
+                                           throw err;
+                                           
+                                           db.close();
+                                           
+                                           if (result.length == 1)
+                                           result = result[0];
+                                           
+                                           callback(result);
+                                           });
+                            });
     }
-
+    
     /**
      * An abstraction to the insert function
      *
@@ -48,23 +48,23 @@ export default class Mongo {
      */
     static insert (collection, object, callback) {
         MongoClient.connect(url, function(error, db){
-            const dbo = db.db(DBName);
-
-            if (error)
-                throw error;
-
-            dbo.collection(collection).insertOne(object, function(err, res){
-                if(err)
-                    throw err;
-
-                db.close();
-
-                if (callback)
-                    callback(res);
-            });
-        });
+                            const dbo = db.db(DBName);
+                            
+                            if (error)
+                            throw error;
+                            
+                            dbo.collection(collection).insertOne(object, function(err, res){
+                                                                 if(err)
+                                                                 throw err;
+                                                                 
+                                                                 db.close();
+                                                                 
+                                                                 if (callback)
+                                                                 callback(res);
+                                                                 });
+                            });
     }
-
+    
     /**
      * An abstraction to the update function
      *
@@ -75,28 +75,28 @@ export default class Mongo {
      */
     static update (collection, query, values, callback) {
         MongoClient.connect(url, function(error, db){
-            const dbo = db.db(DBName);
-
-            //check for connection error
-            if(error){
-                console.error(error);
-                process.exit(1);
-            }
-
-            //put methods to modify database here
-            dbo.collection(collection).updateOne(query, values, function(err, res) {
-                if (err)
-                    throw err;
-
-                //close database
-                db.close();
-
-                if (callback)
-                    callback(res);
-            });
-        });
+                            const dbo = db.db(DBName);
+                            
+                            //check for connection error
+                            if(error){
+                            console.error(error);
+                            process.exit(1);
+                            }
+                            
+                            //put methods to modify database here
+                            dbo.collection(collection).updateOne(query, values, function(err, res) {
+                                                                 if (err)
+                                                                 throw err;
+                                                                 
+                                                                 //close database
+                                                                 db.close();
+                                                                 
+                                                                 if (callback)
+                                                                 callback(res);
+                                                                 });
+                            });
     }
-
+    
     /**
      * An abstraction on the delete function
      * THIS WILL DELETE EVERY MATCH TO THE SPECIFIED QUERY
@@ -108,23 +108,23 @@ export default class Mongo {
      */
     static delete (collection, query, callback) {
         MongoClient.connect(url, function(err, db) {
-            const dbo = db.db(DBName);
-
-            if (err)
-                throw err;
-
-            dbo.collection(collection).deleteOne(query, function(err, obj) {
-                if (err)
-                    throw err;
-
-                db.close();
-
-                if (callback)
-                    callback(obj);
-            });
-        });
+                            const dbo = db.db(DBName);
+                            
+                            if (err)
+                            throw err;
+                            
+                            dbo.collection(collection).deleteOne(query, function(err, obj) {
+                                                                 if (err)
+                                                                 throw err;
+                                                                 
+                                                                 db.close();
+                                                                 
+                                                                 if (callback)
+                                                                 callback(obj);
+                                                                 });
+                            });
     }
-
+    
     /**
      * Method used to update a user's location
      *
@@ -135,47 +135,47 @@ export default class Mongo {
      */
     static updateLocation (email, latitude, longitude, callback) {
         MongoClient.connect(url, function(error, db){
-            const dbo = db.db(DBName);
-            const query = {
-                email: email
-            };
-
-            // location is a GeoJSON object describing the location of the user
-            // it must follow in the order of longitude, latitude
-            // https://docs.mongodb.com/manual/reference/geojson/#geojson-point
-            const value = {
-                $set: {
-                    location : {
-                        type: "Point",
-                        coordinates: [
-                            longitude,
-                            latitude
-                        ]
-                    }
-                }
-            };
-            // console.log(value);
-
-            //check for connection error
-            if(error){
-                console.error(error);
-                process.exit(1);
-            }
-
-            //put methods to modify database here
-            dbo.collection("Users").updateOne(query, value, function(err, res) {
-                if (err)
-                    throw err;
-
-                //close database
-                db.close();
-
-                if (callback)
-                    callback(res);
-            });
-        });
+                            const dbo = db.db(DBName);
+                            const query = {
+                            email: email
+                            };
+                            
+                            // location is a GeoJSON object describing the location of the user
+                            // it must follow in the order of longitude, latitude
+                            // https://docs.mongodb.com/manual/reference/geojson/#geojson-point
+                            const value = {
+                            $set: {
+                            location : {
+                            type: "Point",
+                            coordinates: [
+                                          longitude,
+                                          latitude
+                                          ]
+                            }
+                            }
+                            };
+                            // console.log(value);
+                            
+                            //check for connection error
+                            if(error){
+                            console.error(error);
+                            process.exit(1);
+                            }
+                            
+                            //put methods to modify database here
+                            dbo.collection("Users").updateOne(query, value, function(err, res) {
+                                                              if (err)
+                                                              throw err;
+                                                              
+                                                              //close database
+                                                              db.close();
+                                                              
+                                                              if (callback)
+                                                              callback(res);
+                                                              });
+                            });
     }
-
+    
     /**
      * Method to get users close to the specified user
      * An abstraction on the find method
@@ -183,33 +183,43 @@ export default class Mongo {
      *
      */
     static getNearbyUsers (email, callback) {
-        const distance = 5000;      // Range of distance to search in meters
-        // console.log("\n\n\n\n");
-        // console.log(email);
-        // Get the coordinates of the user
+        // console.log("FF");
+        // // const distance = 5000;      // Range of distance to search in meters
+        // // console.log("\n\n\n\n");
+        // // console.log(email);
+        // // Get the coordinates of the user
         this.find("User", email, undefined, (user) => {
-            console.log(user);
-            callback(user);
-            
-            // const coordinates = user.location.coordinates;
-            // const query = {
-            //     location: {
-            //         $near: {
-            //             $geometry: {
-            //                 type: "Point",
-            //                 coordinates
-            //             },
-            //             $maxDistance: distance
-            //         }
-            //     }
-            // };
-            
-
-            // // Find the users in the proximity of the matching user's location
-            // this.find("Users", query, undefined, callback);
-        });
+                  
+                  var fruits = [];
+                  if(user.length == undefined){
+                  callback(user);
+                  }else{
+                  
+                  for(var i = 0; i < user.length; i++){
+                  var re = {
+                  name: user[i].name,
+                  email: user[i].email,
+                  age: user[i].age,
+                  phone: user[i].phone,
+                  sex: user[i].sex,
+                  cookpref: user[i].cookpref,
+                  favfood: user[i].favfood,
+                  bio: user[i].bio
+                  }
+                  // console.log(re);
+                  fruits.push(re);
+                  }
+                  
+                  // console.log(fruits);
+                  // console.log(fruits.length);
+                  callback(fruits);
+                  
+                  }
+                  // // Find the users in the proximity of the matching user's location
+                  // this.find("Users", query, undefined, callback);
+                  });
     }
-
+    
     /**
      * Method to get list of matches by the specified user
      * An abstraction on the find method
@@ -217,21 +227,21 @@ export default class Mongo {
      *
      */
     static getMatches (email, callback) {
-      this.find("Matches", {email: email}, undefined, (matches) => {
-        const likes = matches.likes;
-        var matchList = [];
-        if(likes != undefined){
-            // callback(0);
-            for(var i = 0; i < likes.length; i++) {
-              if(likes[i].match) {
-                matchList.push(likes[i].email);
-              }
-            }
-        }
-        callback(matchList);
-      });
+        this.find("Matches", {email: email}, undefined, (matches) => {
+                  const likes = matches.likes;
+                  var matchList = [];
+                  if(likes != undefined){
+                  // callback(0);
+                  for(var i = 0; i < likes.length; i++) {
+                  if(likes[i].match) {
+                  matchList.push(likes[i].email);
+                  }
+                  }
+                  }
+                  callback(matchList);
+                  });
     }
-
+    
     /**
      * Method to get a conversation between two users
      * An abstraction on the find method
@@ -239,38 +249,38 @@ export default class Mongo {
      *
      */
     static getConversation (email1, email2, callback) {
-      const query = { "users": { $all: [email1, email2]}}
-      this.find("Conversations", query, undefined, (conversation) => {
-        callback(conversation.conversation)
-      });
+        const query = { "users": { $all: [email1, email2]}}
+        this.find("Conversations", query, undefined, (conversation) => {
+                  callback(conversation.conversation)
+                  });
     }
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
     static updatematches (collection, query, values, callback) {
         MongoClient.connect(url, function(error, db){
-            const dbo = db.db(DBName);
-
-            //check for connection error
-            if(error){
-                console.error(error);
-                process.exit(1);
-            }
-
-            //put methods to modify database here
-            dbo.Matches.update(query, {$push:{"EFAWFE":12}}, function(err, res) {
-                if (err)
-                    throw err;
-
-                //close database
-                db.close();
-
-                if (callback)
-                    callback(res);
-            });
-        });
+                            const dbo = db.db(DBName);
+                            
+                            //check for connection error
+                            if(error){
+                            console.error(error);
+                            process.exit(1);
+                            }
+                            
+                            //put methods to modify database here
+                            dbo.Matches.update(query, {$push:{"EFAWFE":12}}, function(err, res) {
+                                               if (err)
+                                               throw err;
+                                               
+                                               //close database
+                                               db.close();
+                                               
+                                               if (callback)
+                                               callback(res);
+                                               });
+                            });
     }
 }
