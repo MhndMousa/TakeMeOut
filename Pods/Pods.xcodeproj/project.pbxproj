@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		0313E5345D9C3E63E2DC70CC27ED8687 /* Pods-TakeMeOut-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E45AC1D93B80578C267C1B79DFB175 /* Pods-TakeMeOut-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06B440837D26B20382967E4D1DB595AC /* Pods-TakeMeOutUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F19273AEE5340C64633C32D3B55B77 /* Pods-TakeMeOutUITests-dummy.m */; };
 		08637327A1B947F786E7329849498723 /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1EB6724C005765EB21F2AB8F4C785A /* MultipleSelectorViewController.swift */; };
@@ -133,19 +134,124 @@
 
 /* Begin PBXContainerItemProxy section */
 		009DFE99FA694BAC3010AB7F0B667A9E /* PBXContainerItemProxy */ = {
+=======
+		00D746FC009C04DD4407982C486054B2 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457A4B13C2E524887AED3B845E7CD5D /* NVActivityIndicatorAnimationOrbit.swift */; };
+		0301F7BDB6E94C171F8D2F4477F73F61 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA207B68CCC7839678D79D5C88943D30 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		05392B9C091E3E274235625B87D6C7BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025EC21FF6F4E6D2CB438AAFDE330AC3 /* SystemConfiguration.framework */; };
+		06B638C8038790EEA4D37B8033C319E3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BB4D66EAE0A5064DA3CF2809043E35 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		08679E5831B2EE1AE6B6C1A01E03140F /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6D1FA934702A556F87B911A86BD1D2 /* NVActivityIndicatorView.swift */; };
+		0896FE9BF290F51316745704D00BD674 /* Pods-TakeMeOutUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52D4231171E6AE8B11EB9809835DFB72 /* Pods-TakeMeOutUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0983730EC9908D642EE4246C7105C988 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78396552858CE550279CF4F690EB2E8 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		0A62175C3A0E48485024A3C290B0056E /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CCEA4FF53497DE3071869246726BAD /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		0D4AE54348AB5EDD41C7D600D4FCFD88 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577243436CF96BE18BE66342346E0624 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		0D7C63C47B5504AC01F82DCEC92ECDC2 /* GTMMethodCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C90A2200DDA92D80C6CCF7F9231FF7C /* GTMMethodCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1351C79BE5DA3A3D43D42036A647C262 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9EFA6E549618FEF97ED6E0971CF70C /* GTMOAuth2SignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		190C06522236ECA728A97AF124CD8C88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC984985918BF671872CD87D16FD3D6A /* QuartzCore.framework */; };
+		1CAD2D19B6043B494770E9DC585D276D /* GTMMIMEDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A02920934837FA8A6C639061CE2A17C9 /* GTMMIMEDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E55B1FEE450CC591E45783DDFD50382 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13141C8A3674E9E6CA61D2CE3933AA2 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		1F35E37E3805B2161F23774A8E2D5507 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2ED4A60B5D4DE92894ACF0AC5F19A6 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		1FC0636631161F17CC5913D5D0389FD6 /* GTMDebugThreadValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 332B7079E59F534987E94105E67B7F43 /* GTMDebugThreadValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216FD026B6CF3F6C3477A41C7F805FA4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D6BC1601E053E90E3E5E4CCCE558F0 /* Security.framework */; };
+		26C57FD67A2AB1B1D2ABC342224D8ACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */; };
+		26D9A473CCC8B82B08FFA687E1C1B470 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016D08D5B4EE8D833A26307957FD37D2 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		27BD00C727F5CD5BC3AC1BD24D44C2EC /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E763BCA6A5B721B5A4610B7B63DA4B /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DEA98AA54F4D62EEB952189658BD89C /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2F5814E0D2309FF3ED341BF1673091 /* GTMSessionFetcher.m */; };
+		30F46BD604AECC7F1159470A74794366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */; };
+		31829E54EB16495F7D209730377AA51D /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA11AD355003D97E9F5B866F7D52CE0 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		31A17D8E7663090166267CB950E5DB45 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A2339FC556E4C9DB3D90F85B52BF3A /* GTMOAuth2Authentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		333726D18E7D4FC18D95792999A41B80 /* GTMOAuth2SignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA996ECEDFF7D45CFD48AABEB4670E9 /* GTMOAuth2SignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		346DA4CDB9E0CD927E93CCD9F74AB790 /* Pods-TakeMeOutTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF81FB685D2A965958C2CDB113AC5C05 /* Pods-TakeMeOutTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		360F3EFFFCCF95B8D073D7C72067AD1C /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DE21E6940754D5FFE03D0C7BB92505 /* GTMSessionFetcherService.m */; };
+		38D3D4C623EA8293521138683CF6E029 /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BBC9751E933EDF31F2D4A273BB3AA /* NVActivityIndicatorPresenter.swift */; };
+		3EA5EB74DECDECA27E6505BD395A6BB9 /* GTMOAuth2ViewControllerTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5E19B8F3B22233B4AF6A2701C97F89 /* GTMOAuth2ViewControllerTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB2052B121919995345C91B0292B172 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310C4A997498F9CABE63C8FED4285BC /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		415E04FE848A2DDDB12B409D5ECAB192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */; };
+		4299693EB811E218B2A82F451693D038 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83D87C4129F9B79A594FC8D7EE4278C /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		437AA21C3A4AB90265CE9B0F754FA4C5 /* GTMReadMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 5112217CA9F9DF0E895FC3A014D00D2A /* GTMReadMonitorInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4905FAB08AE41BB9C94F10772472AB1F /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1920C9C9FF5E318F9299C5B0C7145E /* GTMSessionFetcherLogging.m */; };
+		499ECBEEC9CF3EB6BC1988C68D8AC041 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8EFD312455F4BC72178F0251E190EC /* NVActivityIndicatorAnimationPacman.swift */; };
+		4B1E96A8E3D342CABEF2397796855A27 /* GTMNSDictionary+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 445F0AF300A3CD6DB602A2C9C7C0BAA4 /* GTMNSDictionary+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA262A5B0E51523B71A926AB5B2333F /* GTMOAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDB235767389C2C6818D196CFF41D58 /* GTMOAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5271CAB8EA7C40289798D5591DC387AC /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0FEC7A77584E0417C45ACE61BBD249 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		5B1AF8B6D07FA01316058C49151CF53A /* GTMOAuth2Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A94016F82B54D4FB92CBA605B582A4D /* GTMOAuth2Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		658773114243D9151B13A21C87ADA67A /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3F8AD4FAF846A04E6B4CEA81CB2EA1C /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6697AAC7CD4F9193D14EF995A8735047 /* GTMNSString+URLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFFA9CC004743246276C4071F6BA2BE /* GTMNSString+URLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69D8B83F45A597F07017CFEEA2A8AC8F /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = C890B2DB3245B511887B104EDB74C4BF /* GTMNSString+URLArguments.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6C7D5F623C2C7B8A63C14A97BEEF865B /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2851FD8EA08E72581223CF9D38B07B0 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		6DF1728A542A08BDB26CDD6CA88DF61D /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBC6F014E59110520DF70C361973B3 /* GTMNSDictionary+URLArguments.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6F083387821D4D107B1F37ABAF2D94C4 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283828169A0D02DF996BD74043B6F117 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		6F2AC5A0FCD730866F2FAF4B5282C189 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AEAA870B497BEEAB37832489992D1 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		7029717B8FC64138FEC0B0A2E543D193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */; };
+		723DB28D62DE82F7048DED51AB1B00E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */; };
+		741C7EF7CB09028A6C14145A105E82F6 /* GTMSessionUploadFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D4B622C73076D86142F7481EA3649 /* GTMSessionUploadFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A3907DBE34600C92C4DEFE97D9CDB9 /* Pods-TakeMeOut-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E45AC1D93B80578C267C1B79DFB175 /* Pods-TakeMeOut-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76A80DD2CD1629835DA9FC6AA7A5C732 /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C2487B43BB89571328CF22A943B84 /* GTMSessionFetcher-dummy.m */; };
+		7BE2990162FCA91A3929717AFF258668 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E554AB250AA692E50A11825F74CD2910 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		7C18A23B104C2672BD935467D0B80ECB /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D67BAECCCCB25A54027C61CBBD991ED /* GTMMIMEDocument.m */; };
+		89D338E46DA8A159EC1A49D48C8DA072 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C633B72A3C1F7FF4C1F3D13CB2C955 /* NVActivityIndicatorAnimationBlank.swift */; };
+		8A01906E83F24DA61FA593290C5EA81C /* Pods-TakeMeOut-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBCDA3425F2F9AFF8743D38158CFB4E /* Pods-TakeMeOut-dummy.m */; };
+		8CF5FEC423923B1B9FC1F0ACE85A3F06 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3592DD5B73600C327BF510EBC01D29C /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		8DBD79DD89E835D879F19571B82BBC10 /* GTMSessionFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A12C8FD54958C0F5D407208C000D49F /* GTMSessionFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		916E77ED77EEC8DDB8149F6E4C3715EE /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE04B2E99A4FCDB51C5F8530C0CF223C /* NVActivityIndicatorShape.swift */; };
+		96ACDA4D360DF9B9C30420A889E4416C /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 85893B7146F741373006EC138F06C33D /* GTMOAuth2ViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		98714C893E8D07613970FF200FF873CB /* GTMGatherInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE1FF30F27F753E65EBDFA74633B443 /* GTMGatherInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9957DDB62F7777265FD9F7CB0D3620DF /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AA7DEA6E340847E60D55788923C17A /* NVActivityIndicatorAnimationLineScale.swift */; };
+		9E04897DC27E8CFB6E58A6255687D9D8 /* GTMGatherInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6D8BB09F3DEC3358915233C36A87DE /* GTMGatherInputStream.m */; };
+		9FE7B426DCB711A471EAF1AD5019DBF7 /* GTMSessionFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4CDAA59FB54266206B4E78FFC9AA60 /* GTMSessionFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FFACFE50F924C7F9CB07C5F2B8C3472 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E23DA68C1DA1190A616242624630044 /* GoogleToolboxForMac-dummy.m */; };
+		A819AFC1A309014A8A6BE6756EF3ED94 /* Pods-TakeMeOutTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B78322BB45E5724143D0A501C572CF /* Pods-TakeMeOutTests-dummy.m */; };
+		A950AD8841D2DF6330D70F31FE934C63 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A199BC420BB278F3B9B15D312A8966 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		AA31BF27F046968E702885DB18CE4D76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B16BA62AF7C3508F11C7AE9D02D4D3A /* UIKit.framework */; };
+		ADA0CD8AE20BF7D9FD0E741694D66EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */; };
+		AEF17AB1AF415A3491C0318D5F0C8AA5 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA5AB86CCA37FE356C3883755A6DCE /* NVActivityIndicatorAnimationBallScale.swift */; };
+		B73A419BA20F2F07A61FE4B0B5192377 /* GTMSessionFetcherService.h in Headers */ = {isa = PBXBuildFile; fileRef = CA091E1C52B4FB916BA0DEE334700179 /* GTMSessionFetcherService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98B85C69ABD726096762856F8AD6DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */; };
+		BA7F6EAA26CF9D5C1BCA6FCC5F22BD7E /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 54560473F181E0461B835F88FBC9048A /* GTMSessionUploadFetcher.m */; };
+		BAA7F2EA9D9D94CF1C9CC7D7CA93F4C8 /* Pods-TakeMeOutUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F19273AEE5340C64633C32D3B55B77 /* Pods-TakeMeOutUITests-dummy.m */; };
+		C09A9D7003942172FB4178D1413EC484 /* GTMReadMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C4846EB9016872DB6757EE000D0623 /* GTMReadMonitorInputStream.m */; };
+		C0ECBEF6859B2F3CEB8285AABB087446 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBBFA3B9C43AEE4B41CC35FA98A5C7F /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C66A5C03A19AE13E42FB3192321081A8 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCED8D1231513630523454FB2514075 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		C7AE84DE14FDC8921DC6E934D6C28431 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626161013C944EF817DE7E8002DA4201 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		CA2417825600746F6D58F5F0C798FFBB /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF17F1E3B8AA2E2FA3EFBCEAAC38B9 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		CB3E3589290AD38E47E68B2547088690 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED87668220DE2678F651E815E098400 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		CB8DEAB39CEA8CBFA79C0EE66C0B119A /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B7216BCCC8FDC2A34EBFC7387CA225 /* GTMSessionFetcher.framework */; };
+		CD02EFF91211DCC1DE607F885831F891 /* GTMOAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B46F85C1E2AADB98A24945ACB251A /* GTMOAuth2-dummy.m */; };
+		CDE1AFFD690EFB73677E905A82057BD0 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D239F39834CB33D2227FFBC826A0845 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		CE14001705D20A2F6E826F743845DC8D /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28932A0840793688BD1132D9F4CF8ABC /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		D396E302588B40A015E65A51F20801E7 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413FB50581E4811791773070A84925E4 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		D4C1B6B0D244CDE005C4939979FAA86A /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BBBA6BB6D939E9B45998F81D92D28 /* NVActivityIndicatorViewable.swift */; };
+		DD1F853E8FE6DC1EC09051BE70D1F035 /* GTMDebugSelectorValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A2C30B4574F3FE207F8C9CBEE2F5D9 /* GTMDebugSelectorValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCE30259E5E20EB30366A5B239F1713 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1D9EC3170C6EA73502D48A6E827D9 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		E2346CB93BA704418C22B0E141D301C0 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E1C95B47FF51288DBAE94D3C1D310C /* NVActivityIndicatorView-dummy.m */; };
+		E635FEC063D35388C9DD3108D515D146 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DA1364E3F14DAF0C45FD009BCBC449 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		E93DCCCE78D990BBA222C32F30E30D90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D6BC1601E053E90E3E5E4CCCE558F0 /* Security.framework */; };
+		F13B8D16CB3369DDC916DA179E19149B /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14EF57262BCA4014694D80E7C8D662B /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		F1F52EB13395C8C4A9D1E1E27261710B /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E1CAEFB53356BEA5C2A5D114EF53B6 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		F5531F9DDD1D852322A97C682A5AFC15 /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A20DB48FC31AF64A4227AF9BEFC385 /* GTMOAuth2ViewTouch.xib */; };
+		F6CA012C4CEB1D996CC12EEADD21CDB1 /* GTMSessionFetcherLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB25E1F1ED088B89963250343451477 /* GTMSessionFetcherLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07968F8123B5C3637B2D2B22C649F53C /* PBXContainerItemProxy */ = {
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 44E420F4520C55C873A5E5B7E46B7A87;
 			remoteInfo = GoogleToolboxForMac;
 		};
+<<<<<<< HEAD
 		0611F7A6D0A50A6BBD75C5BC47E3E9D1 /* PBXContainerItemProxy */ = {
+=======
+		13DA62BE9AEA0999D3A6916641A30589 /* PBXContainerItemProxy */ = {
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D80844252E25001EF12EA74EF23F1C69;
 			remoteInfo = GTMOAuth2;
 		};
+<<<<<<< HEAD
 		32F8A60F3400A072C26C09F692084390 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -154,12 +260,30 @@
 			remoteInfo = "Pods-TakeMeOut";
 		};
 		7B5EE2680575DD307B7C8B8E68EB1020 /* PBXContainerItemProxy */ = {
+=======
+		170F5BE3B9815D61BA81BCBD97BCE075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681BE6E3D02A43F9BA63777AC435C8FD;
+			remoteInfo = GTMSessionFetcher;
+		};
+		4977FD96EFFE6036BAFA35CDAA251052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454ED607D1A26CA7BB9D7948B28DF181;
+			remoteInfo = "Pods-TakeMeOut";
+		};
+		5BF0EFEFD775781AD27EF6ECA547648D /* PBXContainerItemProxy */ = {
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA5D0869578DB4BB5D7BAC67D1E2C084;
 			remoteInfo = GTMSessionFetcher;
 		};
+<<<<<<< HEAD
 		B0815EACB1028A493CABE848D58BA0FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -180,14 +304,32 @@
 			proxyType = 1;
 			remoteGlobalIDString = FA5D0869578DB4BB5D7BAC67D1E2C084;
 			remoteInfo = GTMSessionFetcher;
+=======
+		61A069C8C81BF236EF86E517A78A5BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 123F89F7E8DB3444EAD2F61E835952E2;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		9EAB91E572C40023BBF38C6E284E1692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454ED607D1A26CA7BB9D7948B28DF181;
+			remoteInfo = "Pods-TakeMeOut";
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016D08D5B4EE8D833A26307957FD37D2 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
 		017B5A98254DFC0E87E0E2C11E7BD628 /* Pods-TakeMeOutUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakeMeOutUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		025EC21FF6F4E6D2CB438AAFDE330AC3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		027C75D74AB0A15213EBF492EA5AB18D /* Pods-TakeMeOutUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TakeMeOutUITests.modulemap"; sourceTree = "<group>"; };
 		027CB27F14CEB1A132864C2A973AE85B /* GTMGatherInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMGatherInputStream.h; path = Source/GTMGatherInputStream.h; sourceTree = "<group>"; };
 		0411F4267C87267CBEA91D2A34F728B8 /* Pods-TakeMeOut-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakeMeOut-acknowledgements.markdown"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		05F36F594F172CB7FB4E78DA6F61B9CE /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E45AC1D93B80578C267C1B79DFB175 /* Pods-TakeMeOut-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeMeOut-umbrella.h"; sourceTree = "<group>"; };
 		093D6455EABD5A475285D5619D9AD5A3 /* GTMOAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMOAuth2.framework; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,8 +427,82 @@
 		8C9B95F46E5CBCEBE0C145A26653C751 /* DateRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRow.swift; path = Source/Rows/DateRow.swift; sourceTree = "<group>"; };
 		905D4939976F7FAF5CC7C257A5168297 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		90B91D8A69A118C40CE8EA5814998865 /* SegmentedRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRow.swift; path = Source/Rows/SegmentedRow.swift; sourceTree = "<group>"; };
+=======
+		08E45AC1D93B80578C267C1B79DFB175 /* Pods-TakeMeOut-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeMeOut-umbrella.h"; sourceTree = "<group>"; };
+		0A4B46F85C1E2AADB98A24945ACB251A /* GTMOAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMOAuth2-dummy.m"; sourceTree = "<group>"; };
+		0D67BAECCCCB25A54027C61CBBD991ED /* GTMMIMEDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMMIMEDocument.m; path = Source/GTMMIMEDocument.m; sourceTree = "<group>"; };
+		0E0FEC7A77584E0417C45ACE61BBD249 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		0F2F5814E0D2309FF3ED341BF1673091 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcher.m; path = Source/GTMSessionFetcher.m; sourceTree = "<group>"; };
+		0F2FADBE74AFC1C8264C06B0AB185A32 /* GTMOAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMOAuth2.framework; path = GTMOAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		137BBC9751E933EDF31F2D4A273BB3AA /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		17C633B72A3C1F7FF4C1F3D13CB2C955 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		1CB25E1F1ED088B89963250343451477 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		2484149B6117CE081002C82C5543AD5B /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		275E04C11E8967529BDFB16C9F1904B2 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		283828169A0D02DF996BD74043B6F117 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		28932A0840793688BD1132D9F4CF8ABC /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		290355834E8370C60CC0E66717C89CEC /* Pods-TakeMeOut.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TakeMeOut.modulemap"; sourceTree = "<group>"; };
+		2D2ED4A60B5D4DE92894ACF0AC5F19A6 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		30AA7DEA6E340847E60D55788923C17A /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		310C2487B43BB89571328CF22A943B84 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		31E1CAEFB53356BEA5C2A5D114EF53B6 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		320C96C86947631F50E77075EA433802 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		332B7079E59F534987E94105E67B7F43 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugThreadValidation.h; path = DebugUtils/GTMDebugThreadValidation.h; sourceTree = "<group>"; };
+		33B07EB747F57BB3CEC803923ACC9378 /* Pods-TakeMeOutTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TakeMeOutTests.modulemap"; sourceTree = "<group>"; };
+		35BA5AB86CCA37FE356C3883755A6DCE /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		3A170972E7B604857AA0CB6B583E7A03 /* Pods_TakeMeOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TakeMeOut.framework; path = "Pods-TakeMeOut.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6D1FA934702A556F87B911A86BD1D2 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		3C4EF83CF28ED8AF802AAC8B08AECA58 /* Pods-TakeMeOutTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakeMeOutTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CFF17F1E3B8AA2E2FA3EFBCEAAC38B9 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		413FB50581E4811791773070A84925E4 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		4452B157A4405C8095A3C018FE91D642 /* Pods-TakeMeOut-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeMeOut-resources.sh"; sourceTree = "<group>"; };
+		445F0AF300A3CD6DB602A2C9C7C0BAA4 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSDictionary+URLArguments.h"; path = "Foundation/GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		44EF365CA565DE4D11DDFC4C10331EE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471F89E1D9361E608E3642FAEC06E46E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E4E16DFFF79F2BABDFD09047A1A4CA /* Pods-TakeMeOutUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeMeOutUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BA11AD355003D97E9F5B866F7D52CE0 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		4D239F39834CB33D2227FFBC826A0845 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		4EE1FF30F27F753E65EBDFA74633B443 /* GTMGatherInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMGatherInputStream.h; path = Source/GTMGatherInputStream.h; sourceTree = "<group>"; };
+		4F4E5EE8632CC2EA9E24139ABC00BCB5 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		5112217CA9F9DF0E895FC3A014D00D2A /* GTMReadMonitorInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMReadMonitorInputStream.h; path = Source/GTMReadMonitorInputStream.h; sourceTree = "<group>"; };
+		52D4231171E6AE8B11EB9809835DFB72 /* Pods-TakeMeOutUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeMeOutUITests-umbrella.h"; sourceTree = "<group>"; };
+		54560473F181E0461B835F88FBC9048A /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionUploadFetcher.m; path = Source/GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		55E763BCA6A5B721B5A4610B7B63DA4B /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		5632FF61C944D0E24EFD5DC29F945A02 /* Pods-TakeMeOut-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeMeOut-frameworks.sh"; sourceTree = "<group>"; };
+		5708C59C1C65F33F3BBC80A83420A02B /* Pods-TakeMeOutTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeMeOutTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		577243436CF96BE18BE66342346E0624 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		5BA996ECEDFF7D45CFD48AABEB4670E9 /* GTMOAuth2SignIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2SignIn.h; path = Source/GTMOAuth2SignIn.h; sourceTree = "<group>"; };
+		5BDB235767389C2C6818D196CFF41D58 /* GTMOAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMOAuth2-umbrella.h"; sourceTree = "<group>"; };
+		5C90A2200DDA92D80C6CCF7F9231FF7C /* GTMMethodCheck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMethodCheck.h; path = DebugUtils/GTMMethodCheck.h; sourceTree = "<group>"; };
+		5D8EFD312455F4BC72178F0251E190EC /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		5EFDF9952A2B01B524EC228895D5788B /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61BCE2884BF33B4F7BF009FE4129EE8D /* Pods-TakeMeOutUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeMeOutUITests-frameworks.sh"; sourceTree = "<group>"; };
+		626161013C944EF817DE7E8002DA4201 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		62E1C95B47FF51288DBAE94D3C1D310C /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		64BB4D66EAE0A5064DA3CF2809043E35 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		69DA1364E3F14DAF0C45FD009BCBC449 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		6A4CDAA59FB54266206B4E78FFC9AA60 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		6A94016F82B54D4FB92CBA605B582A4D /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2Authentication.h; path = Source/GTMOAuth2Authentication.h; sourceTree = "<group>"; };
+		6B222884619620B6C1EBB5E8749DFD7A /* Pods-TakeMeOutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeMeOutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CB84543486A7AB3DDE285BF054614E2 /* GTMOAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMOAuth2.xcconfig; sourceTree = "<group>"; };
+		6ED87668220DE2678F651E815E098400 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		7A862FFE61259C81864E2C9F72847BD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFFA9CC004743246276C4071F6BA2BE /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+URLArguments.h"; path = "Foundation/GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		82F4A50F8F72860ACE7D3F4B9B01F45F /* Pods-TakeMeOut-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakeMeOut-acknowledgements.plist"; sourceTree = "<group>"; };
+		8310C4A997498F9CABE63C8FED4285BC /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		8457A4B13C2E524887AED3B845E7CD5D /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		85893B7146F741373006EC138F06C33D /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2ViewControllerTouch.m; path = Source/Touch/GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
+		884A643A3F1C13A1B95BA9C5A4855156 /* GTMOAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMOAuth2-prefix.pch"; sourceTree = "<group>"; };
+		8B16BA62AF7C3508F11C7AE9D02D4D3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8BBCDA3425F2F9AFF8743D38158CFB4E /* Pods-TakeMeOut-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakeMeOut-dummy.m"; sourceTree = "<group>"; };
+		8D5D4B622C73076D86142F7481EA3649 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionUploadFetcher.h; path = Source/GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		90182A0BCDC1054A2D5034AB60915ECB /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 		934201530D90FA3CF77DA87BA716D8F5 /* Pods-TakeMeOutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeMeOutTests.release.xcconfig"; sourceTree = "<group>"; };
+		937F6C237D1F797B1868CE1DD2D5F688 /* GTMOAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMOAuth2.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+<<<<<<< HEAD
 		94294D9A70CD79FFDF0A88B6DB59B96A /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
 		949F0142DC697AF9547F673EC6635222 /* TriplePickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriplePickerInputRow.swift; path = Source/Rows/TriplePickerInputRow.swift; sourceTree = "<group>"; };
 		956E5EB44337053CCA19E8B06C18329C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -334,8 +550,57 @@
 		E5BE12222F7670DC6024B171127CDB4E /* DecimalFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalFormatter.swift; path = Source/Rows/Common/DecimalFormatter.swift; sourceTree = "<group>"; };
 		E5F67F8BAD961E1C92A917E1E1BA1612 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7161121387BEF2C98DF48F64B20EB0D /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
+=======
+		95B7216BCCC8FDC2A34EBFC7387CA225 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A2339FC556E4C9DB3D90F85B52BF3A /* GTMOAuth2Authentication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2Authentication.m; path = Source/GTMOAuth2Authentication.m; sourceTree = "<group>"; };
+		98D8EFD7922FB8195A72B972AC462696 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		9A12C8FD54958C0F5D407208C000D49F /* GTMSessionFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcher.h; path = Source/GTMSessionFetcher.h; sourceTree = "<group>"; };
+		9BCED8D1231513630523454FB2514075 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		9C5E19B8F3B22233B4AF6A2701C97F89 /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMOAuth2ViewControllerTouch.h; path = Source/Touch/GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
+		9E23DA68C1DA1190A616242624630044 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		9EBBFA3B9C43AEE4B41CC35FA98A5C7F /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		A02920934837FA8A6C639061CE2A17C9 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMMIMEDocument.h; path = Source/GTMMIMEDocument.h; sourceTree = "<group>"; };
+		A2CCEA4FF53497DE3071869246726BAD /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		A3592DD5B73600C327BF510EBC01D29C /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		A6A972AD6B09B38AA1148AF83619F69A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75FBB58C65E07E222C3D0D29D047299 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		A9F6C8DCD6F87D12E25063295C2621A9 /* Pods-TakeMeOutUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeMeOutUITests-resources.sh"; sourceTree = "<group>"; };
+		AB09ABEFBCE6234C7D2DD80FE4B6016D /* Pods-TakeMeOutTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeMeOutTests-resources.sh"; sourceTree = "<group>"; };
+		AC6BBBA6BB6D939E9B45998F81D92D28 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		AD6D8BB09F3DEC3358915233C36A87DE /* GTMGatherInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMGatherInputStream.m; path = Source/GTMGatherInputStream.m; sourceTree = "<group>"; };
+		AD9AEAA870B497BEEAB37832489992D1 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		AE04B2E99A4FCDB51C5F8530C0CF223C /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		B14EF57262BCA4014694D80E7C8D662B /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		B2851FD8EA08E72581223CF9D38B07B0 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		B6A199BC420BB278F3B9B15D312A8966 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		B749D8D5446FE3DC2D144AC91927667E /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		B86EA687E05F737AF9B302408F7BAB32 /* Pods-TakeMeOutTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakeMeOutTests-frameworks.sh"; sourceTree = "<group>"; };
+		BCDDA2060F862602AD7C97EA5F62D142 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = Frameworks/GoogleSignIn.framework; sourceTree = "<group>"; };
+		BEE185EB773954D94485230C9C65C02F /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		C0C4846EB9016872DB6757EE000D0623 /* GTMReadMonitorInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMReadMonitorInputStream.m; path = Source/GTMReadMonitorInputStream.m; sourceTree = "<group>"; };
+		C83D87C4129F9B79A594FC8D7EE4278C /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		C890B2DB3245B511887B104EDB74C4BF /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+URLArguments.m"; path = "Foundation/GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		C9A2C30B4574F3FE207F8C9CBEE2F5D9 /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMDebugSelectorValidation.h; path = DebugUtils/GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		CA091E1C52B4FB916BA0DEE334700179 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherService.h; path = Source/GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		CC984985918BF671872CD87D16FD3D6A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CEC4FA2746CB77697939E126D4A227CA /* Pods-TakeMeOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeMeOut.debug.xcconfig"; sourceTree = "<group>"; };
+		D3CE3612C316F62A9E14074F6B51E875 /* Pods-TakeMeOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeMeOut.release.xcconfig"; sourceTree = "<group>"; };
+		D6F163D58D1FDBE36520E3CF116BB764 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMSessionFetcher.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78396552858CE550279CF4F690EB2E8 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		D8DBC6F014E59110520DF70C361973B3 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSDictionary+URLArguments.m"; path = "Foundation/GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		DC1920C9C9FF5E318F9299C5B0C7145E /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherLogging.m; path = Source/GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		DC947FC415846CA898CAE6D2E4555030 /* Pods-TakeMeOutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeMeOutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0A20DB48FC31AF64A4227AF9BEFC385 /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = Source/Touch/GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		E0DE21E6940754D5FFE03D0C7BB92505 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		E554AB250AA692E50A11825F74CD2910 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		E5F67F8BAD961E1C92A917E1E1BA1612 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6C6E35DB96DD26889C0DF6B10CDF1B6 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = Resources/GoogleSignIn.bundle; sourceTree = "<group>"; };
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 		E8B78322BB45E5724143D0A501C572CF /* Pods-TakeMeOutTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakeMeOutTests-dummy.m"; sourceTree = "<group>"; };
+		E8BE1379B47E437029A000D725B937D4 /* Pods_TakeMeOutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TakeMeOutTests.framework; path = "Pods-TakeMeOutTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D6BC1601E053E90E3E5E4CCCE558F0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		E9F19273AEE5340C64633C32D3B55B77 /* Pods-TakeMeOutUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakeMeOutUITests-dummy.m"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		EA53F3462EBD09ABD479ABCD4EAA0E9F /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
 		EAA515A023C683C1BE031A029B118908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECEB756B70A1D8FAD6464F15530D90EB /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
@@ -366,6 +631,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				799B84EC070EDDC75BE5B9775E245044 /* Foundation.framework in Frameworks */,
+=======
+		EA3C2FA28DB71A27387F6B6EC2181C0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA515A023C683C1BE031A029B118908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF81FB685D2A965958C2CDB113AC5C05 /* Pods-TakeMeOutTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakeMeOutTests-umbrella.h"; sourceTree = "<group>"; };
+		EF9EFA6E549618FEF97ED6E0971CF70C /* GTMOAuth2SignIn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMOAuth2SignIn.m; path = Source/GTMOAuth2SignIn.m; sourceTree = "<group>"; };
+		F13141C8A3674E9E6CA61D2CE3933AA2 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		F3F8AD4FAF846A04E6B4CEA81CB2EA1C /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		F5B1D9EC3170C6EA73502D48A6E827D9 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		FA207B68CCC7839678D79D5C88943D30 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		FA58EE13E6E2CFA79677437032B639B9 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		FA6C0222AA63D27500378966FAEEF311 /* Pods-TakeMeOutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakeMeOutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB69CC38C83932B12C2D1C5B56BD6DD /* Pods_TakeMeOutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TakeMeOutUITests.framework; path = "Pods-TakeMeOutUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F01A2CAA22912DCDD7395A4C885AB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98B85C69ABD726096762856F8AD6DF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB0827BDE100ED75D83172497999A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723DB28D62DE82F7048DED51AB1B00E3 /* Foundation.framework in Frameworks */,
+				190C06522236ECA728A97AF124CD8C88 /* QuartzCore.framework in Frameworks */,
+				AA31BF27F046968E702885DB18CE4D76 /* UIKit.framework in Frameworks */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +712,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03339451488CF931FEF85E064C61202B /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				C329442432CFCB6B63E5E590E3A58918 /* DebugUtils */,
+				F923560C774E92566CF151A2B6D4273A /* Defines */,
+				F8B323D9818DBA9903FE1AA3473499F3 /* NSDictionary+URLArguments */,
+				C85FE24710DA5A43B1BEEF677D2429DF /* NSString+URLArguments */,
+				4D75D05DABB92F941E96DF7BB5636DD7 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
 		06677C0BA56B661E715F571DD65AC48D /* Pods-TakeMeOut */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +743,7 @@
 			path = "Target Support Files/Pods-TakeMeOut";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		0CD675336848E39C0F0244DB5364ED5E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -479,10 +789,38 @@
 			isa = PBXGroup;
 			children = (
 				78A9035748570A1C3A1BE6D8CDA54505 /* Eureka.bundle */,
+=======
+		1C0CCED0F9B75B537665F07D6F5F821F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				320C96C86947631F50E77075EA433802 /* GTMSessionFetcher.modulemap */,
+				2484149B6117CE081002C82C5543AD5B /* GTMSessionFetcher.xcconfig */,
+				310C2487B43BB89571328CF22A943B84 /* GTMSessionFetcher-dummy.m */,
+				A75FBB58C65E07E222C3D0D29D047299 /* GTMSessionFetcher-prefix.pch */,
+				6A4CDAA59FB54266206B4E78FFC9AA60 /* GTMSessionFetcher-umbrella.h */,
+				44EF365CA565DE4D11DDFC4C10331EE8 /* Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/GTMSessionFetcher";
 			sourceTree = "<group>";
 		};
+		1EF9139E7CEF9D170187B7EA97BD4714 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9A12C8FD54958C0F5D407208C000D49F /* GTMSessionFetcher.h */,
+				0F2F5814E0D2309FF3ED341BF1673091 /* GTMSessionFetcher.m */,
+				1CB25E1F1ED088B89963250343451477 /* GTMSessionFetcherLogging.h */,
+				DC1920C9C9FF5E318F9299C5B0C7145E /* GTMSessionFetcherLogging.m */,
+				CA091E1C52B4FB916BA0DEE334700179 /* GTMSessionFetcherService.h */,
+				E0DE21E6940754D5FFE03D0C7BB92505 /* GTMSessionFetcherService.m */,
+				8D5D4B622C73076D86142F7481EA3649 /* GTMSessionUploadFetcher.h */,
+				54560473F181E0461B835F88FBC9048A /* GTMSessionUploadFetcher.m */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+<<<<<<< HEAD
 		1796FA36C37A273002F9AE23B1D131A9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -505,11 +843,28 @@
 				A7FD2181768E7523DB6D6D234A72BC72 /* NSDictionary+URLArguments */,
 				B12EC2185CC7ECDFBCF784C05AEE9731 /* NSString+URLArguments */,
 				FE9B09313DF8EE2021D428351478C855 /* Support Files */,
+=======
+		37D391BE06850DA76CB17ED2AAF11D8C /* GoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				3C0017429C400527E5B2CA52EAF68BDA /* Frameworks */,
+				772279AC9C59C70DC4D1E4B4EE1DD8DF /* Resources */,
+			);
+			name = GoogleSignIn;
+			path = GoogleSignIn;
+			sourceTree = "<group>";
+		};
+		3C0017429C400527E5B2CA52EAF68BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCDDA2060F862602AD7C97EA5F62D142 /* GoogleSignIn.framework */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			name = GoogleToolboxForMac;
 			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		26340CA591E6A30F52CE1EABEE9736BA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -537,11 +892,37 @@
 				63CCC2627DDD0D90172405825D6B0E50 /* Eureka-prefix.pch */,
 				7D10C76762E41635B8A36154F8C5B82F /* Eureka-umbrella.h */,
 				801ACA07C8147772CF7516886B5A8EB7 /* Info.plist */,
+=======
+		44B0DE5BB1C255F9BB54F71FCDE7775D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				937F6C237D1F797B1868CE1DD2D5F688 /* GTMOAuth2.modulemap */,
+				6CB84543486A7AB3DDE285BF054614E2 /* GTMOAuth2.xcconfig */,
+				0A4B46F85C1E2AADB98A24945ACB251A /* GTMOAuth2-dummy.m */,
+				884A643A3F1C13A1B95BA9C5A4855156 /* GTMOAuth2-prefix.pch */,
+				5BDB235767389C2C6818D196CFF41D58 /* GTMOAuth2-umbrella.h */,
+				471F89E1D9361E608E3642FAEC06E46E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTMOAuth2";
+			sourceTree = "<group>";
+		};
+		4D75D05DABB92F941E96DF7BB5636DD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA58EE13E6E2CFA79677437032B639B9 /* GoogleToolboxForMac.modulemap */,
+				B749D8D5446FE3DC2D144AC91927667E /* GoogleToolboxForMac.xcconfig */,
+				9E23DA68C1DA1190A616242624630044 /* GoogleToolboxForMac-dummy.m */,
+				98D8EFD7922FB8195A72B972AC462696 /* GoogleToolboxForMac-prefix.pch */,
+				F3F8AD4FAF846A04E6B4CEA81CB2EA1C /* GoogleToolboxForMac-umbrella.h */,
+				EA3C2FA28DB71A27387F6B6EC2181C0D /* Info.plist */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Eureka";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4A19B0530267C1327B5A6143836EE23B /* Full */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,16 +947,54 @@
 				A574D5A27FB1D7F8E4061AB3DC6AB8AC /* GTMSessionFetcherService.m */,
 				27153835A7142368DBC7A88FFA6FF724 /* GTMSessionUploadFetcher.h */,
 				5729C32A25A567F2909810AC1ECDD45D /* GTMSessionUploadFetcher.m */,
+=======
+		500EEAABFEB7F95B2B5D15EF5698B9DB /* NVActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				F6E11BCD5FDDD882D6B7219B6DADA5CD /* Presenter */,
+				B2F0D84AEDB7FAC281F876B66972371C /* Support Files */,
+			);
+			name = NVActivityIndicatorView;
+			path = NVActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		56238962D484E52141FE2CC5C80A0D41 /* Full */ = {
+			isa = PBXGroup;
+			children = (
+				4EE1FF30F27F753E65EBDFA74633B443 /* GTMGatherInputStream.h */,
+				AD6D8BB09F3DEC3358915233C36A87DE /* GTMGatherInputStream.m */,
+				A02920934837FA8A6C639061CE2A17C9 /* GTMMIMEDocument.h */,
+				0D67BAECCCCB25A54027C61CBBD991ED /* GTMMIMEDocument.m */,
+				5112217CA9F9DF0E895FC3A014D00D2A /* GTMReadMonitorInputStream.h */,
+				C0C4846EB9016872DB6757EE000D0623 /* GTMReadMonitorInputStream.m */,
+			);
+			name = Full;
+			sourceTree = "<group>";
+		};
+		772279AC9C59C70DC4D1E4B4EE1DD8DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6C6E35DB96DD26889C0DF6B10CDF1B6 /* GoogleSignIn.bundle */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		690FAF770EE8ABCDDDAC8159AD4BE427 /* DebugUtils */ = {
 			isa = PBXGroup;
 			children = (
 				EF5B75AD8BCE5BDA59A5F3A11F96A16E /* GTMDebugSelectorValidation.h */,
 				DAE73E198D6F274DF1A1381C2342BF3A /* GTMDebugThreadValidation.h */,
 				D44BAE903D83EFA7C3DE91CF14896249 /* GTMMethodCheck.h */,
+=======
+		7AC3D42A24941D04BF5D48D23CE26B69 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				1EF9139E7CEF9D170187B7EA97BD4714 /* Core */,
+				56238962D484E52141FE2CC5C80A0D41 /* Full */,
+				1C0CCED0F9B75B537665F07D6F5F821F /* Support Files */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			name = DebugUtils;
 			sourceTree = "<group>";
@@ -583,11 +1002,20 @@
 		698D2ADA96E46C70795A6D0162CAA18A /* Defines */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				9E449CFF7527470774C7736451E7CD58 /* GTMDefines.h */,
+=======
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BCD130E944DEC2172CB1767D2877CC8B /* Frameworks */,
+				8BE98547274BE811FBE3860536F3F5C8 /* Pods */,
+				E7B6C243526099AF1C17595E30B95D43 /* Products */,
+				F000CD1FE799ACA877731B2F77DF4B32 /* Targets Support Files */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			name = Defines;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		6CE084EE171022CACBD0F38A28E7ABC3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -718,6 +1146,18 @@
 				0E941928FAAF51916BD8A6EE65F6C251 /* GoogleSignIn.bundle */,
 			);
 			name = Resources;
+=======
+		8BE98547274BE811FBE3860536F3F5C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D391BE06850DA76CB17ED2AAF11D8C /* GoogleSignIn */,
+				03339451488CF931FEF85E064C61202B /* GoogleToolboxForMac */,
+				DE5CF53CACB1ABA6CBDCD0CF15E3AE35 /* GTMOAuth2 */,
+				7AC3D42A24941D04BF5D48D23CE26B69 /* GTMSessionFetcher */,
+				500EEAABFEB7F95B2B5D15EF5698B9DB /* NVActivityIndicatorView */,
+			);
+			name = Pods;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			sourceTree = "<group>";
 		};
 		96662150A6969723539E7338A01D2260 /* Pods-TakeMeOutTests */ = {
@@ -738,6 +1178,7 @@
 			path = "Target Support Files/Pods-TakeMeOutTests";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		A4D09AE356D2A30C03C178BF9536C0C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -754,6 +1195,18 @@
 				DF225070647D8DF0615AF49F53462B27 /* GTMNSDictionary+URLArguments.m */,
 			);
 			name = "NSDictionary+URLArguments";
+=======
+		9DBE3A70620055ECD74BACD46EE30E33 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				615AE962C6738B4177A3EBD2725A6FB0 /* Foundation.framework */,
+				CC984985918BF671872CD87D16FD3D6A /* QuartzCore.framework */,
+				E8D6BC1601E053E90E3E5E4CCCE558F0 /* Security.framework */,
+				025EC21FF6F4E6D2CB438AAFDE330AC3 /* SystemConfiguration.framework */,
+				8B16BA62AF7C3508F11C7AE9D02D4D3A /* UIKit.framework */,
+			);
+			name = iOS;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			sourceTree = "<group>";
 		};
 		AB4945B0E346C716802FC9ECFD84BAB9 /* Pods-TakeMeOutUITests */ = {
@@ -774,6 +1227,7 @@
 			path = "Target Support Files/Pods-TakeMeOutUITests";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		B12EC2185CC7ECDFBCF784C05AEE9731 /* NSString+URLArguments */ = {
 			isa = PBXGroup;
 			children = (
@@ -789,6 +1243,86 @@
 				8C93463C7359FAFBEEE66FAD47ECADE6 /* GoogleSignIn.framework */,
 			);
 			name = Frameworks;
+=======
+		B2F0D84AEDB7FAC281F876B66972371C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A972AD6B09B38AA1148AF83619F69A /* Info.plist */,
+				275E04C11E8967529BDFB16C9F1904B2 /* NVActivityIndicatorView.modulemap */,
+				4F4E5EE8632CC2EA9E24139ABC00BCB5 /* NVActivityIndicatorView.xcconfig */,
+				62E1C95B47FF51288DBAE94D3C1D310C /* NVActivityIndicatorView-dummy.m */,
+				BEE185EB773954D94485230C9C65C02F /* NVActivityIndicatorView-prefix.pch */,
+				9EBBFA3B9C43AEE4B41CC35FA98A5C7F /* NVActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		BCD130E944DEC2172CB1767D2877CC8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95B7216BCCC8FDC2A34EBFC7387CA225 /* GTMSessionFetcher.framework */,
+				9DBE3A70620055ECD74BACD46EE30E33 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C329442432CFCB6B63E5E590E3A58918 /* DebugUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2C30B4574F3FE207F8C9CBEE2F5D9 /* GTMDebugSelectorValidation.h */,
+				332B7079E59F534987E94105E67B7F43 /* GTMDebugThreadValidation.h */,
+				5C90A2200DDA92D80C6CCF7F9231FF7C /* GTMMethodCheck.h */,
+			);
+			name = DebugUtils;
+			sourceTree = "<group>";
+		};
+		C85FE24710DA5A43B1BEEF677D2429DF /* NSString+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				7FFFA9CC004743246276C4071F6BA2BE /* GTMNSString+URLArguments.h */,
+				C890B2DB3245B511887B104EDB74C4BF /* GTMNSString+URLArguments.m */,
+			);
+			name = "NSString+URLArguments";
+			sourceTree = "<group>";
+		};
+		CC95791F94353193D27A440E8CC69601 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0A20DB48FC31AF64A4227AF9BEFC385 /* GTMOAuth2ViewTouch.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE5CF53CACB1ABA6CBDCD0CF15E3AE35 /* GTMOAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				6A94016F82B54D4FB92CBA605B582A4D /* GTMOAuth2Authentication.h */,
+				98A2339FC556E4C9DB3D90F85B52BF3A /* GTMOAuth2Authentication.m */,
+				5BA996ECEDFF7D45CFD48AABEB4670E9 /* GTMOAuth2SignIn.h */,
+				EF9EFA6E549618FEF97ED6E0971CF70C /* GTMOAuth2SignIn.m */,
+				9C5E19B8F3B22233B4AF6A2701C97F89 /* GTMOAuth2ViewControllerTouch.h */,
+				85893B7146F741373006EC138F06C33D /* GTMOAuth2ViewControllerTouch.m */,
+				CC95791F94353193D27A440E8CC69601 /* Resources */,
+				44B0DE5BB1C255F9BB54F71FCDE7775D /* Support Files */,
+			);
+			name = GTMOAuth2;
+			path = GTMOAuth2;
+			sourceTree = "<group>";
+		};
+		E7B6C243526099AF1C17595E30B95D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDF9952A2B01B524EC228895D5788B /* GoogleToolboxForMac.framework */,
+				0F2FADBE74AFC1C8264C06B0AB185A32 /* GTMOAuth2.framework */,
+				D6F163D58D1FDBE36520E3CF116BB764 /* GTMSessionFetcher.framework */,
+				90182A0BCDC1054A2D5034AB60915ECB /* NVActivityIndicatorView.framework */,
+				3A170972E7B604857AA0CB6B583E7A03 /* Pods_TakeMeOut.framework */,
+				E8BE1379B47E437029A000D725B937D4 /* Pods_TakeMeOutTests.framework */,
+				FDB69CC38C83932B12C2D1C5B56BD6DD /* Pods_TakeMeOutUITests.framework */,
+			);
+			name = Products;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			sourceTree = "<group>";
 		};
 		F000CD1FE799ACA877731B2F77DF4B32 /* Targets Support Files */ = {
@@ -801,6 +1335,7 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		FE9B09313DF8EE2021D428351478C855 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -813,6 +1348,68 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GoogleToolboxForMac";
+=======
+		F6E11BCD5FDDD882D6B7219B6DADA5CD /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D78396552858CE550279CF4F690EB2E8 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				8310C4A997498F9CABE63C8FED4285BC /* NVActivityIndicatorAnimationBallBeat.swift */,
+				AD9AEAA870B497BEEAB37832489992D1 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				B2851FD8EA08E72581223CF9D38B07B0 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				2D2ED4A60B5D4DE92894ACF0AC5F19A6 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				E554AB250AA692E50A11825F74CD2910 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				A2CCEA4FF53497DE3071869246726BAD /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				A3592DD5B73600C327BF510EBC01D29C /* NVActivityIndicatorAnimationBallPulse.swift */,
+				016D08D5B4EE8D833A26307957FD37D2 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				F5B1D9EC3170C6EA73502D48A6E827D9 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				9BCED8D1231513630523454FB2514075 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				B14EF57262BCA4014694D80E7C8D662B /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				35BA5AB86CCA37FE356C3883755A6DCE /* NVActivityIndicatorAnimationBallScale.swift */,
+				577243436CF96BE18BE66342346E0624 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				283828169A0D02DF996BD74043B6F117 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				C83D87C4129F9B79A594FC8D7EE4278C /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				31E1CAEFB53356BEA5C2A5D114EF53B6 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				4BA11AD355003D97E9F5B866F7D52CE0 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				28932A0840793688BD1132D9F4CF8ABC /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				64BB4D66EAE0A5064DA3CF2809043E35 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				17C633B72A3C1F7FF4C1F3D13CB2C955 /* NVActivityIndicatorAnimationBlank.swift */,
+				3CFF17F1E3B8AA2E2FA3EFBCEAAC38B9 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				0E0FEC7A77584E0417C45ACE61BBD249 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				626161013C944EF817DE7E8002DA4201 /* NVActivityIndicatorAnimationDelegate.swift */,
+				30AA7DEA6E340847E60D55788923C17A /* NVActivityIndicatorAnimationLineScale.swift */,
+				4D239F39834CB33D2227FFBC826A0845 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				6ED87668220DE2678F651E815E098400 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				B6A199BC420BB278F3B9B15D312A8966 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				FA207B68CCC7839678D79D5C88943D30 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				8457A4B13C2E524887AED3B845E7CD5D /* NVActivityIndicatorAnimationOrbit.swift */,
+				5D8EFD312455F4BC72178F0251E190EC /* NVActivityIndicatorAnimationPacman.swift */,
+				69DA1364E3F14DAF0C45FD009BCBC449 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				413FB50581E4811791773070A84925E4 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				F13141C8A3674E9E6CA61D2CE3933AA2 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				137BBC9751E933EDF31F2D4A273BB3AA /* NVActivityIndicatorPresenter.swift */,
+				AE04B2E99A4FCDB51C5F8530C0CF223C /* NVActivityIndicatorShape.swift */,
+				3B6D1FA934702A556F87B911A86BD1D2 /* NVActivityIndicatorView.swift */,
+				AC6BBBA6BB6D939E9B45998F81D92D28 /* NVActivityIndicatorViewable.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		F8B323D9818DBA9903FE1AA3473499F3 /* NSDictionary+URLArguments */ = {
+			isa = PBXGroup;
+			children = (
+				445F0AF300A3CD6DB602A2C9C7C0BAA4 /* GTMNSDictionary+URLArguments.h */,
+				D8DBC6F014E59110520DF70C361973B3 /* GTMNSDictionary+URLArguments.m */,
+			);
+			name = "NSDictionary+URLArguments";
+			sourceTree = "<group>";
+		};
+		F923560C774E92566CF151A2B6D4273A /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				55E763BCA6A5B721B5A4610B7B63DA4B /* GTMDefines.h */,
+			);
+			name = Defines;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -837,7 +1434,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		6588E8BCB04058CC6B181CE17A246868 /* Headers */ = {
+=======
+		10E911E6159D88F716718E181F077042 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A3907DBE34600C92C4DEFE97D9CDB9 /* Pods-TakeMeOut-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5BEAF770816891836785DA7F13BAE1 /* Headers */ = {
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -874,6 +1483,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		9B18ACD628B8B5D02BCDB79BECFCA45A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -887,12 +1497,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				97403470C40B361B05127ACC18B19A45 /* Pods-TakeMeOutUITests-umbrella.h in Headers */,
+=======
+		7A137430C1276C6F09162CC2677DF5B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ECBEF6859B2F3CEB8285AABB087446 /* NVActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5DEBC1CD189DB12FA5A20441186B0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346DA4CDB9E0CD927E93CCD9F74AB790 /* Pods-TakeMeOutTests-umbrella.h in Headers */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		17F9BF278A41ACFB966FFFD6F3BCA592 /* Pods-TakeMeOut */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 143651791CB2DD27A7AE7F2FE6599154 /* Build configuration list for PBXNativeTarget "Pods-TakeMeOut" */;
@@ -901,10 +1527,20 @@
 				BC79067C6BAE280B51DE51B6480227AD /* Sources */,
 				EE6AAAC8DFB51386B1438FBBDDB141A6 /* Frameworks */,
 				494BA1D2B08C66DF3889788A0F05EE0E /* Resources */,
+=======
+		123F89F7E8DB3444EAD2F61E835952E2 /* NVActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8808CC8F44CBB4AF94BD9B9F4ECD43B /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
+			buildPhases = (
+				027AFA83DD3F16DD8FE3DE2BABC95F0C /* Sources */,
+				3DB0827BDE100ED75D83172497999A0D /* Frameworks */,
+				7A137430C1276C6F09162CC2677DF5B1 /* Headers */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				0A23CFC03BFC84B4D59370B181B3034E /* PBXTargetDependency */,
 				DA9C3B51C90B60E81F891C1FD36D3FF9 /* PBXTargetDependency */,
 				0464F7925AA760F5ABEAF12D0B4E987B /* PBXTargetDependency */,
@@ -913,6 +1549,12 @@
 			name = "Pods-TakeMeOut";
 			productName = "Pods-TakeMeOut";
 			productReference = 48EBEC3BCA5069C0DAC71C312A204D7E /* Pods_TakeMeOut.framework */;
+=======
+			);
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = 90182A0BCDC1054A2D5034AB60915ECB /* NVActivityIndicatorView.framework */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			productType = "com.apple.product-type.framework";
 		};
 		1EE7941D0C49F3A8D48D2BE0D5174E78 /* Pods-TakeMeOutTests */ = {
@@ -931,7 +1573,32 @@
 			);
 			name = "Pods-TakeMeOutTests";
 			productName = "Pods-TakeMeOutTests";
+<<<<<<< HEAD
 			productReference = 7BA476AE4744CFE9DBDE8B7D0BAD7DA1 /* Pods_TakeMeOutTests.framework */;
+=======
+			productReference = E8BE1379B47E437029A000D725B937D4 /* Pods_TakeMeOutTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		454ED607D1A26CA7BB9D7948B28DF181 /* Pods-TakeMeOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C51D0652853FB020DBF8F5F204681C /* Build configuration list for PBXNativeTarget "Pods-TakeMeOut" */;
+			buildPhases = (
+				0C5D072ABBB4E09A9F8B6625AFEA309A /* Sources */,
+				2F01A2CAA22912DCDD7395A4C885AB9F /* Frameworks */,
+				10E911E6159D88F716718E181F077042 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05DEDDDAFF3F0DF13F0182BFCE8FB9D /* PBXTargetDependency */,
+				3E3BF9B891E9D9E3C853BEEAA2E6BE9C /* PBXTargetDependency */,
+				768930076A3FC180B9D5E8E452564AB8 /* PBXTargetDependency */,
+				9D1875AD2BA461A0831A567621239C73 /* PBXTargetDependency */,
+			);
+			name = "Pods-TakeMeOut";
+			productName = "Pods-TakeMeOut";
+			productReference = 3A170972E7B604857AA0CB6B583E7A03 /* Pods_TakeMeOut.framework */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			productType = "com.apple.product-type.framework";
 		};
 		44E420F4520C55C873A5E5B7E46B7A87 /* GoogleToolboxForMac */ = {
@@ -947,9 +1614,15 @@
 			);
 			dependencies = (
 			);
+<<<<<<< HEAD
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
 			productReference = 6FD19D9B014B09903E17509E890DDFDC /* GoogleToolboxForMac.framework */;
+=======
+			name = GTMSessionFetcher;
+			productName = GTMSessionFetcher;
+			productReference = D6F163D58D1FDBE36520E3CF116BB764 /* GTMSessionFetcher.framework */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			productType = "com.apple.product-type.framework";
 		};
 		62A471058D5B16D9B5BFF6D29B846E20 /* Pods-TakeMeOutUITests */ = {
@@ -966,9 +1639,15 @@
 			dependencies = (
 				72DC3FE53E37B6D4BC4ADE70E4E72747 /* PBXTargetDependency */,
 			);
+<<<<<<< HEAD
 			name = "Pods-TakeMeOutUITests";
 			productName = "Pods-TakeMeOutUITests";
 			productReference = 70EAC2C6B4D05AEF45D5C00BCC832D81 /* Pods_TakeMeOutUITests.framework */;
+=======
+			name = GTMOAuth2;
+			productName = GTMOAuth2;
+			productReference = 0F2FADBE74AFC1C8264C06B0AB185A32 /* GTMOAuth2.framework */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			productType = "com.apple.product-type.framework";
 		};
 		A2D491F85C2F0E31F5BB90876BEEB149 /* Eureka */ = {
@@ -984,9 +1663,15 @@
 			);
 			dependencies = (
 			);
+<<<<<<< HEAD
 			name = Eureka;
 			productName = Eureka;
 			productReference = 05F36F594F172CB7FB4E78DA6F61B9CE /* Eureka.framework */;
+=======
+			name = "Pods-TakeMeOutUITests";
+			productName = "Pods-TakeMeOutUITests";
+			productReference = FDB69CC38C83932B12C2D1C5B56BD6DD /* Pods_TakeMeOutUITests.framework */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			productType = "com.apple.product-type.framework";
 		};
 		D80844252E25001EF12EA74EF23F1C69 /* GTMOAuth2 */ = {
@@ -1003,6 +1688,7 @@
 			dependencies = (
 				A10694AC4DF055B7E08D46510D0EB6A1 /* PBXTargetDependency */,
 			);
+<<<<<<< HEAD
 			name = GTMOAuth2;
 			productName = GTMOAuth2;
 			productReference = 093D6455EABD5A475285D5619D9AD5A3 /* GTMOAuth2.framework */;
@@ -1024,6 +1710,11 @@
 			name = GTMSessionFetcher;
 			productName = GTMSessionFetcher;
 			productReference = 0C0108E6076078BFD56F68C7ABD51035 /* GTMSessionFetcher.framework */;
+=======
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 5EFDF9952A2B01B524EC228895D5788B /* GoogleToolboxForMac.framework */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1043,6 +1734,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+<<<<<<< HEAD
 			productRefGroup = 0CD675336848E39C0F0244DB5364ED5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1054,6 +1746,19 @@
 				17F9BF278A41ACFB966FFFD6F3BCA592 /* Pods-TakeMeOut */,
 				1EE7941D0C49F3A8D48D2BE0D5174E78 /* Pods-TakeMeOutTests */,
 				62A471058D5B16D9B5BFF6D29B846E20 /* Pods-TakeMeOutUITests */,
+=======
+			productRefGroup = E7B6C243526099AF1C17595E30B95D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F05BBF0ABCBAB1D55C2FE0C052A8CF62 /* GoogleToolboxForMac */,
+				B1C4AAFAF49036C7007633DAA3C806AD /* GTMOAuth2 */,
+				681BE6E3D02A43F9BA63777AC435C8FD /* GTMSessionFetcher */,
+				123F89F7E8DB3444EAD2F61E835952E2 /* NVActivityIndicatorView */,
+				454ED607D1A26CA7BB9D7948B28DF181 /* Pods-TakeMeOut */,
+				1B46C118AB6E9138E16C81BA0634B5EF /* Pods-TakeMeOutTests */,
+				EE50C141C5DCD3853F6290A3A24BEB75 /* Pods-TakeMeOutUITests */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 		};
 /* End PBXProject section */
@@ -1113,6 +1818,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		25676EE1EA681A32D44D2BE58A004CAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1188,6 +1894,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5131E6C4AA86C0F360DAFFCC22E5ABA3 /* Sources */ = {
+=======
+		027AFA83DD3F16DD8FE3DE2BABC95F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0983730EC9908D642EE4246C7105C988 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				3EB2052B121919995345C91B0292B172 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				6F2AC5A0FCD730866F2FAF4B5282C189 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				6C7D5F623C2C7B8A63C14A97BEEF865B /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				1F35E37E3805B2161F23774A8E2D5507 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				7BE2990162FCA91A3929717AFF258668 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				0A62175C3A0E48485024A3C290B0056E /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				8CF5FEC423923B1B9FC1F0ACE85A3F06 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				26D9A473CCC8B82B08FFA687E1C1B470 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				DDCE30259E5E20EB30366A5B239F1713 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				C66A5C03A19AE13E42FB3192321081A8 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				F13B8D16CB3369DDC916DA179E19149B /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				AEF17AB1AF415A3491C0318D5F0C8AA5 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				0D4AE54348AB5EDD41C7D600D4FCFD88 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				6F083387821D4D107B1F37ABAF2D94C4 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				4299693EB811E218B2A82F451693D038 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				F1F52EB13395C8C4A9D1E1E27261710B /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				31829E54EB16495F7D209730377AA51D /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				CE14001705D20A2F6E826F743845DC8D /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				06B638C8038790EEA4D37B8033C319E3 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				89D338E46DA8A159EC1A49D48C8DA072 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				CA2417825600746F6D58F5F0C798FFBB /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
+				5271CAB8EA7C40289798D5591DC387AC /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				C7AE84DE14FDC8921DC6E934D6C28431 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				9957DDB62F7777265FD9F7CB0D3620DF /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				CDE1AFFD690EFB73677E905A82057BD0 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				CB3E3589290AD38E47E68B2547088690 /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				A950AD8841D2DF6330D70F31FE934C63 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				0301F7BDB6E94C171F8D2F4477F73F61 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				00D746FC009C04DD4407982C486054B2 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				499ECBEEC9CF3EB6BC1988C68D8AC041 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				E635FEC063D35388C9DD3108D515D146 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				D396E302588B40A015E65A51F20801E7 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				1E55B1FEE450CC591E45783DDFD50382 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				38D3D4C623EA8293521138683CF6E029 /* NVActivityIndicatorPresenter.swift in Sources */,
+				916E77ED77EEC8DDB8149F6E4C3715EE /* NVActivityIndicatorShape.swift in Sources */,
+				E2346CB93BA704418C22B0E141D301C0 /* NVActivityIndicatorView-dummy.m in Sources */,
+				08679E5831B2EE1AE6B6C1A01E03140F /* NVActivityIndicatorView.swift in Sources */,
+				D4C1B6B0D244CDE005C4939979FAA86A /* NVActivityIndicatorViewable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048652B2CDB8D351E86B2CBBABBFB98D /* Sources */ = {
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1198,6 +1953,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		5533FCB3DA128D7FBBF825513A237D14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1205,6 +1961,13 @@
 				33443BE548FD058F7BDFF3AAB1FA1C94 /* GoogleToolboxForMac-dummy.m in Sources */,
 				DDD5936A577DF5AAED4B36C7EAF3E8F5 /* GTMNSDictionary+URLArguments.m in Sources */,
 				AD5D98B2E1B5CF3EC05B9DEB91875C61 /* GTMNSString+URLArguments.m in Sources */,
+=======
+		0C5D072ABBB4E09A9F8B6625AFEA309A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A01906E83F24DA61FA593290C5EA81C /* Pods-TakeMeOut-dummy.m in Sources */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1250,6 +2013,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		0464F7925AA760F5ABEAF12D0B4E987B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GTMSessionFetcher;
@@ -1267,10 +2031,30 @@
 			name = GoogleToolboxForMac;
 			target = 44E420F4520C55C873A5E5B7E46B7A87 /* GoogleToolboxForMac */;
 			targetProxy = 009DFE99FA694BAC3010AB7F0B667A9E /* PBXContainerItemProxy */;
+=======
+		3685CC549B13D25F9B663361874E198F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = 681BE6E3D02A43F9BA63777AC435C8FD /* GTMSessionFetcher */;
+			targetProxy = 170F5BE3B9815D61BA81BCBD97BCE075 /* PBXContainerItemProxy */;
+		};
+		3E3BF9B891E9D9E3C853BEEAA2E6BE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMSessionFetcher;
+			target = 681BE6E3D02A43F9BA63777AC435C8FD /* GTMSessionFetcher */;
+			targetProxy = 07968F8123B5C3637B2D2B22C649F53C /* PBXContainerItemProxy */;
+		};
+		768930076A3FC180B9D5E8E452564AB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = F05BBF0ABCBAB1D55C2FE0C052A8CF62 /* GoogleToolboxForMac */;
+			targetProxy = 13DA62BE9AEA0999D3A6916641A30589 /* PBXContainerItemProxy */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 		};
 		6D4093894DC0FFD4F15F97CB666F491B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TakeMeOut";
+<<<<<<< HEAD
 			target = 17F9BF278A41ACFB966FFFD6F3BCA592 /* Pods-TakeMeOut */;
 			targetProxy = B0815EACB1028A493CABE848D58BA0FB /* PBXContainerItemProxy */;
 		};
@@ -1279,9 +2063,26 @@
 			name = "Pods-TakeMeOut";
 			target = 17F9BF278A41ACFB966FFFD6F3BCA592 /* Pods-TakeMeOut */;
 			targetProxy = 32F8A60F3400A072C26C09F692084390 /* PBXContainerItemProxy */;
+=======
+			target = 454ED607D1A26CA7BB9D7948B28DF181 /* Pods-TakeMeOut */;
+			targetProxy = 9EAB91E572C40023BBF38C6E284E1692 /* PBXContainerItemProxy */;
+		};
+		9D1875AD2BA461A0831A567621239C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = 123F89F7E8DB3444EAD2F61E835952E2 /* NVActivityIndicatorView */;
+			targetProxy = 61A069C8C81BF236EF86E517A78A5BAD /* PBXContainerItemProxy */;
+		};
+		D05DEDDDAFF3F0DF13F0182BFCE8FB9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMOAuth2;
+			target = B1C4AAFAF49036C7007633DAA3C806AD /* GTMOAuth2 */;
+			targetProxy = 5BF0EFEFD775781AD27EF6ECA547648D /* PBXContainerItemProxy */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 		};
 		A10694AC4DF055B7E08D46510D0EB6A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+<<<<<<< HEAD
 			name = GTMSessionFetcher;
 			target = FA5D0869578DB4BB5D7BAC67D1E2C084 /* GTMSessionFetcher */;
 			targetProxy = 7B5EE2680575DD307B7C8B8E68EB1020 /* PBXContainerItemProxy */;
@@ -1291,6 +2092,11 @@
 			name = GTMOAuth2;
 			target = D80844252E25001EF12EA74EF23F1C69 /* GTMOAuth2 */;
 			targetProxy = 0611F7A6D0A50A6BBD75C5BC47E3E9D1 /* PBXContainerItemProxy */;
+=======
+			name = "Pods-TakeMeOut";
+			target = 454ED607D1A26CA7BB9D7948B28DF181 /* Pods-TakeMeOut */;
+			targetProxy = 4977FD96EFFE6036BAFA35CDAA251052 /* PBXContainerItemProxy */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 		};
 /* End PBXTargetDependency section */
 
@@ -1299,6 +2105,75 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 645B3C492208F573DABEF3C3EF8E8DAD /* GTMSessionFetcher.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
+=======
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2442F61399AD3029B4507D51F7DB7FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CE3612C316F62A9E14074F6B51E875 /* Pods-TakeMeOut.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1322,13 +2197,18 @@
 				PRODUCT_NAME = GTMSessionFetcher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+<<<<<<< HEAD
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
+=======
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		20B8BB3F895226C3C3731D5021D61EE4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1406,7 +2286,11 @@
 		};
 		4BA53655AE56417D903395CFEB032C3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 905D4939976F7FAF5CC7C257A5168297 /* GoogleToolboxForMac.xcconfig */;
+=======
+			baseConfigurationReference = 6CB84543486A7AB3DDE285BF054614E2 /* GTMOAuth2.xcconfig */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1441,7 +2325,11 @@
 		};
 		4FE9843664D01380E546488D4D557183 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 645B3C492208F573DABEF3C3EF8E8DAD /* GTMSessionFetcher.xcconfig */;
+=======
+			baseConfigurationReference = 6CB84543486A7AB3DDE285BF054614E2 /* GTMOAuth2.xcconfig */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1477,7 +2365,11 @@
 		};
 		69302D6EE85D195AB613C960A2DB84C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = D3CE3612C316F62A9E14074F6B51E875 /* Pods-TakeMeOut.release.xcconfig */;
+=======
+			baseConfigurationReference = 2484149B6117CE081002C82C5543AD5B /* GTMSessionFetcher.xcconfig */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1626,6 +2518,7 @@
 		};
 		98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1693,6 +2586,9 @@
 		9D39E88742AA892AFFD0C7C4E8A8D395 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BF5F760BACFCC4D02A41F3C0159B9B38 /* GTMOAuth2.xcconfig */;
+=======
+			baseConfigurationReference = B749D8D5446FE3DC2D144AC91927667E /* GoogleToolboxForMac.xcconfig */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1725,9 +2621,51 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		9E50008BA20E8CBAB8FF9928EF7F8F42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 905D4939976F7FAF5CC7C257A5168297 /* GoogleToolboxForMac.xcconfig */;
+=======
+		A0F4B4EB0742FB1E7DD8A4E7AB626C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC4FA2746CB77697939E126D4A227CA /* Pods-TakeMeOut.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TakeMeOut/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TakeMeOut/Pods-TakeMeOut.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE7E7BEFCC6885B538FECACAB2F98F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B749D8D5446FE3DC2D144AC91927667E /* GoogleToolboxForMac.xcconfig */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1862,12 +2800,16 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		C0AAE4A82DAF907DFFAB929DFA6D1AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B222884619620B6C1EBB5E8749DFD7A /* Pods-TakeMeOutTests.debug.xcconfig */;
+=======
+		E4DF2B211D6A77FACB3FB7580BEC36EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4E5EE8632CC2EA9E24139ABC00BCB5 /* NVActivityIndicatorView.xcconfig */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1877,6 +2819,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 				INFOPLIST_FILE = "Target Support Files/Pods-TakeMeOutTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1892,8 +2835,21 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1902,7 +2858,11 @@
 		};
 		E877ABC537EC186BDD7814535F7B7031 /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = CEC4FA2746CB77697939E126D4A227CA /* Pods-TakeMeOut.debug.xcconfig */;
+=======
+			baseConfigurationReference = 2484149B6117CE081002C82C5543AD5B /* GTMSessionFetcher.xcconfig */;
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1937,6 +2897,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F8AC53B438E76EAA5EDF7B7854EC8A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4E5EE8632CC2EA9E24139ABC00BCB5 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1986,11 +2979,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		7BCC39EDDD49C6EBF79166AE9007BD5C /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				207F60BA1061ABD0F72905D55098D567 /* Debug */,
 				4FE9843664D01380E546488D4D557183 /* Release */,
+=======
+		63C51D0652853FB020DBF8F5F204681C /* Build configuration list for PBXNativeTarget "Pods-TakeMeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0F4B4EB0742FB1E7DD8A4E7AB626C45 /* Debug */,
+				2442F61399AD3029B4507D51F7DB7FE6 /* Release */,
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2004,7 +3005,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		CB140A358A44C5A6512B4D04CDE976B4 /* Build configuration list for PBXNativeTarget "Pods-TakeMeOutTests" */ = {
+=======
+		F8808CC8F44CBB4AF94BD9B9F4ECD43B /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DF2B211D6A77FACB3FB7580BEC36EE /* Debug */,
+				F8AC53B438E76EAA5EDF7B7854EC8A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB158E1F36AA30684612A296A5755DC7 /* Build configuration list for PBXNativeTarget "GTMOAuth2" */ = {
+>>>>>>> 9ee34e6e99b099545a3a0fd32ca7bfaa7d9e8473
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0AAE4A82DAF907DFFAB929DFA6D1AEB /* Debug */,

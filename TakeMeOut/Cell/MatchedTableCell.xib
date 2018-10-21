@@ -1,25 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.30.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.19.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="175" id="KGk-i7-Jjw" customClass="MatchedTableCell" customModule="TakeMeOut" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="291" height="175"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="KGk-i7-Jjw" customClass="MatchedTableCell" customModule="TakeMeOut" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="291" height="174.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="367" height="199.5"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7T9-qu-BHS">
+                        <rect key="frame" x="15" y="10" width="337" height="179.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muhannad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxS-nY-WSW">
+                                <rect key="frame" x="74" y="12" width="280" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Gfb-4X-ykt"/>
+                                    <constraint firstAttribute="width" constant="280" id="Hhq-kf-Qds"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="your boy loves mexican food" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7U-Ha-gXo">
+                                <rect key="frame" x="74" y="87.5" width="251" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Oov-ov-7gG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🌭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SqM-4I-UgY">
+                                <rect key="frame" x="12" y="12" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MSm-7f-SKq"/>
+                                    <constraint firstAttribute="width" constant="50" id="Rrb-s6-jrJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.28547731160000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SqM-4I-UgY" firstAttribute="leading" secondItem="7T9-qu-BHS" secondAttribute="leading" constant="12" id="2ah-e6-7JZ"/>
+                            <constraint firstAttribute="trailing" secondItem="G7U-Ha-gXo" secondAttribute="trailing" constant="12" id="3uA-Sk-ByD"/>
+                            <constraint firstItem="oxS-nY-WSW" firstAttribute="leading" secondItem="SqM-4I-UgY" secondAttribute="trailing" constant="12" id="9cJ-ia-CGP"/>
+                            <constraint firstItem="G7U-Ha-gXo" firstAttribute="leading" secondItem="7T9-qu-BHS" secondAttribute="leading" constant="74" id="IeN-IZ-giA"/>
+                            <constraint firstItem="oxS-nY-WSW" firstAttribute="top" secondItem="7T9-qu-BHS" secondAttribute="top" constant="12" id="OeJ-TI-7jA"/>
+                            <constraint firstItem="SqM-4I-UgY" firstAttribute="top" secondItem="7T9-qu-BHS" secondAttribute="top" constant="12" id="Ump-FR-amg"/>
+                            <constraint firstAttribute="bottom" secondItem="G7U-Ha-gXo" secondAttribute="bottom" constant="12" id="We9-5G-qzI"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="7T9-qu-BHS" secondAttribute="bottom" constant="10" id="0Xk-dQ-twJ"/>
+                    <constraint firstItem="7T9-qu-BHS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="8jG-AM-J2E"/>
+                    <constraint firstItem="7T9-qu-BHS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="HXZ-ji-Mi0"/>
+                    <constraint firstAttribute="trailing" secondItem="7T9-qu-BHS" secondAttribute="trailing" constant="15" id="Nxl-Ri-mlm"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="114.40000000000001" y="213.64317841079463"/>
+            <connections>
+                <outlet property="backgroud" destination="7T9-qu-BHS" id="vHt-sT-0Bt"/>
+                <outlet property="comment" destination="G7U-Ha-gXo" id="ENx-BZ-tQv"/>
+                <outlet property="emoji" destination="SqM-4I-UgY" id="6NI-4b-lzt"/>
+                <outlet property="name" destination="oxS-nY-WSW" id="UJR-Rk-7OZ"/>
+            </connections>
+            <point key="canvasLocation" x="253.59999999999999" y="207.79610194902551"/>
         </tableViewCell>
     </objects>
 </document>
