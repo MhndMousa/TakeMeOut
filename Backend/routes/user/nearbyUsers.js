@@ -8,6 +8,7 @@ router.post('/', function(req, res, next) {
     const email = req.body.email;
 
     Mongo.getNearbyUsers(email, (users) => {
+        console.log(users);
         res.json(users);
     });
 });

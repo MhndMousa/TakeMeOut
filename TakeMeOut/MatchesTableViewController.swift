@@ -33,7 +33,7 @@ class MatchesTableViewController: UITableViewController {
         tableView.rowHeight = UITableView.automaticDimension
         
 
-        
+        fectData()
 //        for i in 0..<100{
 //            let user = createUser(name: String(i))
 //            users.append(user)
@@ -43,7 +43,7 @@ class MatchesTableViewController: UITableViewController {
     }
     
     func fectData(){
-        let url = URL(string: "http://127.0.0.1:6968/user/nearbyUsers")!
+        let url = URL(string: "http://10.186.59.115:6968/user/nearbyUsers")!
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         

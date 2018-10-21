@@ -22,7 +22,7 @@ var sendUser = require('./routes/user/nearbyUsers');
 
 
 var app = express(); 
-app.set('port', 6969);
+app.set('port', 6968);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

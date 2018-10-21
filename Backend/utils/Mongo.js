@@ -184,26 +184,29 @@ export default class Mongo {
      */
     static getNearbyUsers (email, callback) {
         const distance = 5000;      // Range of distance to search in meters
-        console.log("\n\n\n\n");
-        console.log(email);
+        // console.log("\n\n\n\n");
+        // console.log(email);
         // Get the coordinates of the user
         this.find("User", email, undefined, (user) => {
             console.log(user);
-            const coordinates = user.location.coordinates;
-            const query = {
-                location: {
-                    $near: {
-                        $geometry: {
-                            type: "Point",
-                            coordinates
-                        },
-                        $maxDistance: distance
-                    }
-                }
-            };
+            callback(user);
+            
+            // const coordinates = user.location.coordinates;
+            // const query = {
+            //     location: {
+            //         $near: {
+            //             $geometry: {
+            //                 type: "Point",
+            //                 coordinates
+            //             },
+            //             $maxDistance: distance
+            //         }
+            //     }
+            // };
+            
 
-            // Find the users in the proximity of the matching user's location
-            this.find("Users", query, undefined, callback);
+            // // Find the users in the proximity of the matching user's location
+            // this.find("Users", query, undefined, callback);
         });
     }
 
