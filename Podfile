@@ -6,7 +6,7 @@ target 'TakeMeOut' do
   use_frameworks!
   pod 'GoogleSignIn'
   # Pods for TakeMeOut
-
+  pod 'Eureka'
   target 'TakeMeOutTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,4 +1,5 @@
 PODS:
+  - Eureka (4.3.0)
   - GoogleSignIn (4.3.0):
     - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
@@ -21,21 +22,24 @@ PODS:
     - GTMSessionFetcher/Core (= 1.2.0)
 
 DEPENDENCIES:
+  - Eureka
   - GoogleSignIn
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
+    - Eureka
     - GoogleSignIn
     - GoogleToolboxForMac
     - GTMOAuth2
     - GTMSessionFetcher
 
 SPEC CHECKSUMS:
+  Eureka: 6d711cb30ca333b4bc893110285a722ae3840114
   GoogleSignIn: 11183592dc63e105475c7305a325045ff95e02b7
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
 
-PODFILE CHECKSUM: 3ba2accc400d18574cb4eb6fe59d69cae80f1340
+PODFILE CHECKSUM: 896ac037736079dddf4f1d68756fc7b6f59d32bb
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
