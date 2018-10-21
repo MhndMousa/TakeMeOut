@@ -134,7 +134,12 @@ export default class Mongo {
      * @param callback      The function to be executed after update
      */
     static updateLocation (email, latitude, longitude, callback) {
+        
         MongoClient.connect(url, function(error, db){
+            console.log("FEAWFAWEFAEW");
+            console.log(email);
+            console.log(latitude);
+            console.log(longitude);
             const dbo = db.db(DBName);
             const query = {
                 email: email
@@ -163,7 +168,7 @@ export default class Mongo {
             }
 
             //put methods to modify database here
-            dbo.collection("Users").updateOne(query, value, function(err, res) {
+            dbo.collection("User").updateOne(query, value, function(err, res) {
                 if (err)
                     throw err;
 
