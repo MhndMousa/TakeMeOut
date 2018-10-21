@@ -23,11 +23,14 @@ extension UIView {
         layer.insertSublayer(gradientLayer, at: 0)
     }
 }
-
-
-struct location{
-    let latitude: Double
-    let longitude: Double
+//
+//struct coordinates {
+//    let latitude: Double
+//    let longitude: Double
+//}
+struct location: Codable{
+    let type: String = "point"
+    let coordinate: [Double]
 }
 
 

@@ -19,9 +19,13 @@ PODS:
   - GTMSessionFetcher/Core (1.2.0)
   - GTMSessionFetcher/Full (1.2.0):
     - GTMSessionFetcher/Core (= 1.2.0)
+  - NVActivityIndicatorView (4.4.0):
+    - NVActivityIndicatorView/Presenter (= 4.4.0)
+  - NVActivityIndicatorView/Presenter (4.4.0)
 
 DEPENDENCIES:
   - GoogleSignIn
+  - NVActivityIndicatorView
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -29,13 +33,15 @@ SPEC REPOS:
     - GoogleToolboxForMac
     - GTMOAuth2
     - GTMSessionFetcher
+    - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
   GoogleSignIn: 11183592dc63e105475c7305a325045ff95e02b7
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
   GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  NVActivityIndicatorView: ec7440a57af2450319d3a4181cca7da6fc127064
 
-PODFILE CHECKSUM: 3ba2accc400d18574cb4eb6fe59d69cae80f1340
+PODFILE CHECKSUM: 8fd5c504b30592316dd04bf7619ed40a7c6b2ffd
 
 COCOAPODS: 1.5.0
