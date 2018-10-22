@@ -129,7 +129,7 @@ class MatchesTableViewController: UITableViewController {
         var request = URLRequest(url: url)
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpMethod = "POST"
-        let u = createUser(name: "Steve")
+        let u = createUser(name: "")
         
         //From object to json
         let jsonEncoder = JSONEncoder()
@@ -149,7 +149,7 @@ class MatchesTableViewController: UITableViewController {
                 print("response = \(String(describing: response))")
             }
             let responseString = String(data: data, encoding: .utf8)
-//            print("responseString = \(String(describing: responseString))")
+            print("responseString = \(String(describing: responseString))")
             
             let jsonDecoder = JSONDecoder()
 //            print(try! jsonDecoder.decode(user.self, from: (responseString!.data(using: .utf8))!))
